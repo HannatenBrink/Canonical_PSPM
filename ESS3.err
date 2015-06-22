@@ -1,0 +1,2817 @@
+
+
+Using QR factorization for solving linear systems
+
+New point:	Parameter: 1.00000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 3.93556E-01
+Computing jacobian.....Ok!
+	dY  norm: 1.14825E-01	RHS norm: 3.32667E-01
+	dY  norm: 5.33491E-02	RHS norm: 1.17103E-01
+	dY  norm: 1.17046E-02	RHS norm: 1.79319E-02
+	dY  norm: 1.88713E-03	RHS norm: 8.69414E-04
+	dY  norm: 8.59975E-05	RHS norm: 5.26099E-06
+	dY  norm: 5.16857E-07	RHS norm: 1.49989E-09
+	dY  norm: 1.47396E-10	RHS norm: 4.44089E-16
+
+New point:	Parameter: 1.00000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.88178E-16
+Point found:	1.00000E+00	2.98701E-01	
+
+New point:	Parameter: 1.00731E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.24713E-02
+Computing jacobian.....Ok!
+	dY  norm: 2.07999E-03	RHS norm: 1.66745E-04
+	dY  norm: 1.52316E-05	RHS norm: 1.22151E-06
+	dY  norm: 1.12388E-07	RHS norm: 6.57638E-11
+	dY  norm: 6.05105E-12	RHS norm: 7.32747E-15
+Point found:	1.00731E+00	2.98491E-01	
+
+New point:	Parameter: 1.00321E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 4.08385E-03
+Computing jacobian.....Ok!
+	dY  norm: 3.92898E-04	RHS norm: 5.56196E-06
+	dY  norm: 5.33854E-07	RHS norm: 7.42620E-09
+	dY  norm: 7.13739E-10	RHS norm: 1.08802E-14
+Point found:	1.00321E+00	2.98452E-01	
+
+New point:	Parameter: 1.00672E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 3.90608E-03
+Computing jacobian.....Ok!
+	dY  norm: 3.64395E-04	RHS norm: 5.05728E-06
+	dY  norm: 4.70727E-07	RHS norm: 6.41153E-09
+	dY  norm: 5.97534E-10	RHS norm: 9.10383E-15
+Point found:	1.00672E+00	2.98415E-01	
+
+New point:	Parameter: 1.00489E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.32620E-03
+Computing jacobian.....Ok!
+	dY  norm: 1.26253E-04	RHS norm: 6.06266E-07
+	dY  norm: 5.76729E-08	RHS norm: 2.62034E-10
+Point found:	1.00489E+00	2.98403E-01	
+
+New point:	Parameter: 1.00675E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.81576E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.20490E-05	RHS norm: 3.37429E-07
+	dY  norm: 3.16257E-08	RHS norm: 1.07571E-10
+Point found:	1.00675E+00	2.98394E-01	
+
+New point:	Parameter: 1.00602E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 5.04594E-04
+Computing jacobian.....Ok!
+	dY  norm: 4.77950E-05	RHS norm: 9.54100E-08
+	dY  norm: 9.03479E-09	RHS norm: 1.57143E-11
+Point found:	1.00602E+00	2.98389E-01	
+
+New point:	Parameter: 1.00708E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 3.90685E-04
+Computing jacobian.....Ok!
+	dY  norm: 3.67323E-05	RHS norm: 5.93382E-08
+	dY  norm: 5.57786E-09	RHS norm: 7.52554E-12
+Point found:	1.00708E+00	2.98385E-01	
+
+New point:	Parameter: 1.00689E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.86969E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.71120E-05	RHS norm: 3.39358E-08
+	dY  norm: 3.20570E-09	RHS norm: 3.17013E-12
+Point found:	1.00689E+00	2.98382E-01	
+
+New point:	Parameter: 1.00757E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.57865E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.42722E-05	RHS norm: 2.80517E-08
+	dY  norm: 2.64011E-09	RHS norm: 2.36944E-12
+Point found:	1.00757E+00	2.98380E-01	
+
+New point:	Parameter: 1.00764E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.31981E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.18861E-05	RHS norm: 2.32942E-08
+	dY  norm: 2.19744E-09	RHS norm: 1.74305E-12
+Point found:	1.00764E+00	2.98378E-01	
+
+New point:	Parameter: 1.00814E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.25533E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.12374E-05	RHS norm: 2.21779E-08
+	dY  norm: 2.08817E-09	RHS norm: 1.57896E-12
+Point found:	1.00814E+00	2.98376E-01	
+
+New point:	Parameter: 1.00833E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.17912E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.05413E-05	RHS norm: 2.08964E-08
+	dY  norm: 1.96958E-09	RHS norm: 1.47815E-12
+Point found:	1.00833E+00	2.98374E-01	
+
+New point:	Parameter: 1.00874E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.16583E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.03952E-05	RHS norm: 2.06807E-08
+	dY  norm: 1.94727E-09	RHS norm: 1.41931E-12
+Point found:	1.00874E+00	2.98372E-01	
+
+New point:	Parameter: 1.00899E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.13738E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.01361E-05	RHS norm: 2.02183E-08
+	dY  norm: 1.90456E-09	RHS norm: 1.36424E-12
+Point found:	1.00899E+00	2.98370E-01	
+
+New point:	Parameter: 1.00936E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.13308E-04
+Computing jacobian.....Ok!
+	dY  norm: 2.00838E-05	RHS norm: 2.01536E-08
+	dY  norm: 1.89736E-09	RHS norm: 1.41576E-12
+Point found:	1.00936E+00	2.98368E-01	
+
+New point:	Parameter: 1.00964E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.11872E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.99512E-05	RHS norm: 1.99256E-08
+	dY  norm: 1.87614E-09	RHS norm: 1.32627E-12
+Point found:	1.00964E+00	2.98366E-01	
+
+New point:	Parameter: 1.00998E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.11476E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.99065E-05	RHS norm: 1.98670E-08
+	dY  norm: 1.86993E-09	RHS norm: 1.38844E-12
+Point found:	1.00998E+00	2.98364E-01	
+
+New point:	Parameter: 1.01028E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.10516E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.98159E-05	RHS norm: 1.97175E-08
+	dY  norm: 1.85582E-09	RHS norm: 1.36313E-12
+Point found:	1.01028E+00	2.98362E-01	
+
+New point:	Parameter: 1.01061E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.10036E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.97654E-05	RHS norm: 1.96458E-08
+	dY  norm: 1.84859E-09	RHS norm: 1.35625E-12
+Point found:	1.01061E+00	2.98360E-01	
+
+New point:	Parameter: 1.01092E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.09261E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.96907E-05	RHS norm: 1.95267E-08
+	dY  norm: 1.83722E-09	RHS norm: 1.33937E-12
+Point found:	1.01092E+00	2.98358E-01	
+
+New point:	Parameter: 1.01124E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.08716E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.96353E-05	RHS norm: 1.94449E-08
+	dY  norm: 1.82913E-09	RHS norm: 1.31872E-12
+Point found:	1.01124E+00	2.98356E-01	
+
+New point:	Parameter: 1.01155E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.08021E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.95674E-05	RHS norm: 1.93393E-08
+	dY  norm: 1.81897E-09	RHS norm: 1.27764E-12
+Point found:	1.01155E+00	2.98354E-01	
+
+New point:	Parameter: 1.01187E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.07440E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.95091E-05	RHS norm: 1.92520E-08
+	dY  norm: 1.81042E-09	RHS norm: 1.29630E-12
+Point found:	1.01187E+00	2.98352E-01	
+
+New point:	Parameter: 1.01218E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.06783E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.94446E-05	RHS norm: 1.91529E-08
+	dY  norm: 1.80084E-09	RHS norm: 1.28986E-12
+Point found:	1.01218E+00	2.98350E-01	
+
+New point:	Parameter: 1.01249E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.06183E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.93848E-05	RHS norm: 1.90630E-08
+	dY  norm: 1.79209E-09	RHS norm: 1.28431E-12
+Point found:	1.01249E+00	2.98348E-01	
+
+New point:	Parameter: 1.01281E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.05547E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.93220E-05	RHS norm: 1.89676E-08
+	dY  norm: 1.78284E-09	RHS norm: 1.25677E-12
+Point found:	1.01281E+00	2.98346E-01	
+
+New point:	Parameter: 1.01312E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.04939E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.92617E-05	RHS norm: 1.88769E-08
+	dY  norm: 1.77403E-09	RHS norm: 1.21569E-12
+Point found:	1.01312E+00	2.98344E-01	
+
+New point:	Parameter: 1.01343E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.04314E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.92000E-05	RHS norm: 1.87836E-08
+	dY  norm: 1.76499E-09	RHS norm: 1.26277E-12
+Point found:	1.01343E+00	2.98342E-01	
+
+New point:	Parameter: 1.01374E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.03704E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.91395E-05	RHS norm: 1.86929E-08
+	dY  norm: 1.75618E-09	RHS norm: 1.25522E-12
+Point found:	1.01374E+00	2.98340E-01	
+
+New point:	Parameter: 1.01405E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.03086E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.90785E-05	RHS norm: 1.86011E-08
+	dY  norm: 1.74728E-09	RHS norm: 1.22302E-12
+Point found:	1.01405E+00	2.98338E-01	
+
+New point:	Parameter: 1.01436E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.02476E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.90181E-05	RHS norm: 1.85109E-08
+	dY  norm: 1.73853E-09	RHS norm: 1.28697E-12
+Point found:	1.01436E+00	2.98336E-01	
+
+New point:	Parameter: 1.01467E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.01863E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.89576E-05	RHS norm: 1.84203E-08
+	dY  norm: 1.72975E-09	RHS norm: 1.21414E-12
+Point found:	1.01467E+00	2.98335E-01	
+
+New point:	Parameter: 1.01498E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.01255E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.88975E-05	RHS norm: 1.83308E-08
+	dY  norm: 1.72107E-09	RHS norm: 1.17484E-12
+Point found:	1.01498E+00	2.98333E-01	
+
+New point:	Parameter: 1.01529E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.00646E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.88373E-05	RHS norm: 1.82412E-08
+	dY  norm: 1.71239E-09	RHS norm: 1.17373E-12
+Point found:	1.01529E+00	2.98331E-01	
+
+New point:	Parameter: 1.01560E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.00040E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.87775E-05	RHS norm: 1.81524E-08
+	dY  norm: 1.70378E-09	RHS norm: 1.17861E-12
+Point found:	1.01560E+00	2.98329E-01	
+
+New point:	Parameter: 1.01591E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.99435E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.87177E-05	RHS norm: 1.80638E-08
+	dY  norm: 1.69520E-09	RHS norm: 1.17040E-12
+Point found:	1.01591E+00	2.98327E-01	
+
+New point:	Parameter: 1.01622E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.98832E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.86582E-05	RHS norm: 1.79757E-08
+	dY  norm: 1.68667E-09	RHS norm: 1.15974E-12
+Point found:	1.01622E+00	2.98325E-01	
+
+New point:	Parameter: 1.01653E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.98230E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.85988E-05	RHS norm: 1.78880E-08
+	dY  norm: 1.67818E-09	RHS norm: 1.13864E-12
+Point found:	1.01653E+00	2.98323E-01	
+
+New point:	Parameter: 1.01683E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.97629E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.85396E-05	RHS norm: 1.78008E-08
+	dY  norm: 1.66974E-09	RHS norm: 1.08624E-12
+Point found:	1.01683E+00	2.98321E-01	
+
+New point:	Parameter: 1.01714E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.97031E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.84805E-05	RHS norm: 1.77139E-08
+	dY  norm: 1.66133E-09	RHS norm: 1.14797E-12
+Point found:	1.01714E+00	2.98320E-01	
+
+New point:	Parameter: 1.01745E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.96433E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.84216E-05	RHS norm: 1.76275E-08
+	dY  norm: 1.65298E-09	RHS norm: 1.12355E-12
+Point found:	1.01745E+00	2.98318E-01	
+
+New point:	Parameter: 1.01775E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.95838E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.83629E-05	RHS norm: 1.75416E-08
+	dY  norm: 1.64466E-09	RHS norm: 1.09579E-12
+Point found:	1.01775E+00	2.98316E-01	
+
+New point:	Parameter: 1.01806E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.95243E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.83044E-05	RHS norm: 1.74559E-08
+	dY  norm: 1.63638E-09	RHS norm: 1.13753E-12
+Point found:	1.01806E+00	2.98314E-01	
+
+New point:	Parameter: 1.01836E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.94651E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.82460E-05	RHS norm: 1.73708E-08
+	dY  norm: 1.62814E-09	RHS norm: 1.12577E-12
+Point found:	1.01836E+00	2.98312E-01	
+
+New point:	Parameter: 1.01866E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.94059E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.81878E-05	RHS norm: 1.72860E-08
+	dY  norm: 1.61995E-09	RHS norm: 1.11000E-12
+Point found:	1.01866E+00	2.98310E-01	
+
+New point:	Parameter: 1.01897E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.93470E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.81297E-05	RHS norm: 1.72017E-08
+	dY  norm: 1.61180E-09	RHS norm: 1.09845E-12
+Point found:	1.01897E+00	2.98309E-01	
+
+New point:	Parameter: 1.01927E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.92882E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.80718E-05	RHS norm: 1.71178E-08
+	dY  norm: 1.60369E-09	RHS norm: 1.09268E-12
+Point found:	1.01927E+00	2.98307E-01	
+
+New point:	Parameter: 1.01957E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.92295E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.80141E-05	RHS norm: 1.70343E-08
+	dY  norm: 1.59562E-09	RHS norm: 1.06848E-12
+Point found:	1.01957E+00	2.98305E-01	
+
+New point:	Parameter: 1.01988E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.91710E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.79565E-05	RHS norm: 1.69512E-08
+	dY  norm: 1.58760E-09	RHS norm: 1.03917E-12
+Point found:	1.01988E+00	2.98303E-01	
+
+New point:	Parameter: 1.02018E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.91126E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.78991E-05	RHS norm: 1.68684E-08
+	dY  norm: 1.57961E-09	RHS norm: 1.04761E-12
+Point found:	1.02018E+00	2.98301E-01	
+
+New point:	Parameter: 1.02048E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.90544E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.78419E-05	RHS norm: 1.67861E-08
+	dY  norm: 1.57166E-09	RHS norm: 1.04894E-12
+Point found:	1.02048E+00	2.98300E-01	
+
+New point:	Parameter: 1.02078E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.89963E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.77848E-05	RHS norm: 1.67042E-08
+	dY  norm: 1.56375E-09	RHS norm: 1.02496E-12
+Point found:	1.02078E+00	2.98298E-01	
+
+New point:	Parameter: 1.02108E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.89384E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.77279E-05	RHS norm: 1.66227E-08
+	dY  norm: 1.55589E-09	RHS norm: 1.03140E-12
+Point found:	1.02108E+00	2.98296E-01	
+
+New point:	Parameter: 1.02138E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.88806E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.76711E-05	RHS norm: 1.65416E-08
+	dY  norm: 1.54806E-09	RHS norm: 9.74998E-13
+Point found:	1.02138E+00	2.98294E-01	
+
+New point:	Parameter: 1.02168E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.88230E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.76145E-05	RHS norm: 1.64609E-08
+	dY  norm: 1.54028E-09	RHS norm: 1.00919E-12
+Point found:	1.02168E+00	2.98293E-01	
+
+New point:	Parameter: 1.02198E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.87655E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.75581E-05	RHS norm: 1.63805E-08
+	dY  norm: 1.53253E-09	RHS norm: 1.04872E-12
+Point found:	1.02198E+00	2.98291E-01	
+
+New point:	Parameter: 1.02228E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.87082E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.75018E-05	RHS norm: 1.63005E-08
+	dY  norm: 1.52482E-09	RHS norm: 9.88098E-13
+Point found:	1.02228E+00	2.98289E-01	
+
+New point:	Parameter: 1.02258E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.86510E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.74457E-05	RHS norm: 1.62210E-08
+	dY  norm: 1.51715E-09	RHS norm: 1.03029E-12
+Point found:	1.02258E+00	2.98287E-01	
+
+New point:	Parameter: 1.02287E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.85940E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.73898E-05	RHS norm: 1.61418E-08
+	dY  norm: 1.50952E-09	RHS norm: 1.00320E-12
+Point found:	1.02287E+00	2.98286E-01	
+
+New point:	Parameter: 1.02317E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.85371E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.73340E-05	RHS norm: 1.60631E-08
+	dY  norm: 1.50193E-09	RHS norm: 9.35696E-13
+Point found:	1.02317E+00	2.98284E-01	
+
+New point:	Parameter: 1.02347E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.84804E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.72783E-05	RHS norm: 1.59847E-08
+	dY  norm: 1.49438E-09	RHS norm: 9.45688E-13
+Point found:	1.02347E+00	2.98282E-01	
+
+New point:	Parameter: 1.02376E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.84238E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.72229E-05	RHS norm: 1.59067E-08
+	dY  norm: 1.48687E-09	RHS norm: 9.62785E-13
+Point found:	1.02376E+00	2.98280E-01	
+
+New point:	Parameter: 1.02406E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.83673E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.71676E-05	RHS norm: 1.58291E-08
+	dY  norm: 1.47939E-09	RHS norm: 9.45244E-13
+Point found:	1.02406E+00	2.98279E-01	
+
+New point:	Parameter: 1.02436E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.83111E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.71124E-05	RHS norm: 1.57518E-08
+	dY  norm: 1.47195E-09	RHS norm: 9.36140E-13
+Point found:	1.02436E+00	2.98277E-01	
+
+New point:	Parameter: 1.02465E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.82549E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.70574E-05	RHS norm: 1.56750E-08
+	dY  norm: 1.46455E-09	RHS norm: 9.16156E-13
+Point found:	1.02465E+00	2.98275E-01	
+
+New point:	Parameter: 1.02494E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.81989E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.70026E-05	RHS norm: 1.55985E-08
+	dY  norm: 1.45720E-09	RHS norm: 8.71969E-13
+Point found:	1.02494E+00	2.98274E-01	
+
+New point:	Parameter: 1.02524E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.81430E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.69479E-05	RHS norm: 1.55223E-08
+	dY  norm: 1.44987E-09	RHS norm: 9.11493E-13
+Point found:	1.02524E+00	2.98272E-01	
+
+New point:	Parameter: 1.02553E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.80873E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.68933E-05	RHS norm: 1.54466E-08
+	dY  norm: 1.44258E-09	RHS norm: 9.29479E-13
+Point found:	1.02553E+00	2.98270E-01	
+
+New point:	Parameter: 1.02583E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.80318E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.68390E-05	RHS norm: 1.53712E-08
+	dY  norm: 1.43533E-09	RHS norm: 8.60645E-13
+Point found:	1.02583E+00	2.98268E-01	
+
+New point:	Parameter: 1.02612E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.79763E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.67848E-05	RHS norm: 1.52961E-08
+	dY  norm: 1.42811E-09	RHS norm: 9.36806E-13
+Point found:	1.02612E+00	2.98267E-01	
+
+New point:	Parameter: 1.02641E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.79211E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.67307E-05	RHS norm: 1.52215E-08
+	dY  norm: 1.42094E-09	RHS norm: 8.76188E-13
+Point found:	1.02641E+00	2.98265E-01	
+
+New point:	Parameter: 1.02670E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.78659E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.66768E-05	RHS norm: 1.51472E-08
+	dY  norm: 1.41380E-09	RHS norm: 8.94618E-13
+Point found:	1.02670E+00	2.98263E-01	
+
+New point:	Parameter: 1.02699E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.78109E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.66230E-05	RHS norm: 1.50733E-08
+	dY  norm: 1.40669E-09	RHS norm: 8.83738E-13
+Point found:	1.02699E+00	2.98262E-01	
+
+New point:	Parameter: 1.02728E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.77561E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.65694E-05	RHS norm: 1.49998E-08
+	dY  norm: 1.39963E-09	RHS norm: 8.75078E-13
+Point found:	1.02728E+00	2.98260E-01	
+
+New point:	Parameter: 1.02758E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.77014E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.65160E-05	RHS norm: 1.49266E-08
+	dY  norm: 1.39259E-09	RHS norm: 8.71525E-13
+Point found:	1.02758E+00	2.98258E-01	
+
+New point:	Parameter: 1.02787E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.76468E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.64627E-05	RHS norm: 1.48537E-08
+	dY  norm: 1.38560E-09	RHS norm: 8.52873E-13
+Point found:	1.02787E+00	2.98257E-01	
+
+New point:	Parameter: 1.02815E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.75924E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.64096E-05	RHS norm: 1.47813E-08
+	dY  norm: 1.37864E-09	RHS norm: 8.29559E-13
+Point found:	1.02815E+00	2.98255E-01	
+
+New point:	Parameter: 1.02844E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.75382E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.63566E-05	RHS norm: 1.47092E-08
+	dY  norm: 1.37172E-09	RHS norm: 8.52207E-13
+Point found:	1.02844E+00	2.98254E-01	
+
+New point:	Parameter: 1.02873E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.74840E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.63038E-05	RHS norm: 1.46374E-08
+	dY  norm: 1.36483E-09	RHS norm: 8.40661E-13
+Point found:	1.02873E+00	2.98252E-01	
+
+New point:	Parameter: 1.02902E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.74300E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.62511E-05	RHS norm: 1.45660E-08
+	dY  norm: 1.35797E-09	RHS norm: 8.30003E-13
+Point found:	1.02902E+00	2.98250E-01	
+
+New point:	Parameter: 1.02931E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.73762E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.61986E-05	RHS norm: 1.44949E-08
+	dY  norm: 1.35115E-09	RHS norm: 8.10463E-13
+Point found:	1.02931E+00	2.98249E-01	
+
+New point:	Parameter: 1.02960E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.73225E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.61462E-05	RHS norm: 1.44242E-08
+	dY  norm: 1.34437E-09	RHS norm: 7.88480E-13
+Point found:	1.02960E+00	2.98247E-01	
+
+New point:	Parameter: 1.02988E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.72689E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.60940E-05	RHS norm: 1.43538E-08
+	dY  norm: 1.33762E-09	RHS norm: 7.98028E-13
+Point found:	1.02988E+00	2.98245E-01	
+
+New point:	Parameter: 1.03017E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.72155E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.60419E-05	RHS norm: 1.42838E-08
+	dY  norm: 1.33091E-09	RHS norm: 8.69305E-13
+Point found:	1.03017E+00	2.98244E-01	
+
+New point:	Parameter: 1.03046E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.71622E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.59900E-05	RHS norm: 1.42140E-08
+	dY  norm: 1.32422E-09	RHS norm: 8.22453E-13
+Point found:	1.03046E+00	2.98242E-01	
+
+New point:	Parameter: 1.03074E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.71091E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.59382E-05	RHS norm: 1.41447E-08
+	dY  norm: 1.31758E-09	RHS norm: 8.04246E-13
+Point found:	1.03074E+00	2.98241E-01	
+
+New point:	Parameter: 1.03103E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.70561E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.58866E-05	RHS norm: 1.40758E-08
+	dY  norm: 1.31097E-09	RHS norm: 8.60867E-13
+Point found:	1.03103E+00	2.98239E-01	
+
+New point:	Parameter: 1.03131E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.70033E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.58351E-05	RHS norm: 1.40071E-08
+	dY  norm: 1.30439E-09	RHS norm: 7.40963E-13
+Point found:	1.03131E+00	2.98238E-01	
+
+New point:	Parameter: 1.03159E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.69505E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.57838E-05	RHS norm: 1.39388E-08
+	dY  norm: 1.29785E-09	RHS norm: 7.50289E-13
+Point found:	1.03159E+00	2.98236E-01	
+
+New point:	Parameter: 1.03188E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.68980E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.57327E-05	RHS norm: 1.38708E-08
+	dY  norm: 1.29134E-09	RHS norm: 7.66720E-13
+Point found:	1.03188E+00	2.98234E-01	
+
+New point:	Parameter: 1.03216E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.68455E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.56816E-05	RHS norm: 1.38032E-08
+	dY  norm: 1.28486E-09	RHS norm: 7.71161E-13
+Point found:	1.03216E+00	2.98233E-01	
+
+New point:	Parameter: 1.03244E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.67932E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.56308E-05	RHS norm: 1.37359E-08
+	dY  norm: 1.27841E-09	RHS norm: 7.52953E-13
+Point found:	1.03244E+00	2.98231E-01	
+
+New point:	Parameter: 1.03273E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.67411E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.55800E-05	RHS norm: 1.36689E-08
+	dY  norm: 1.27200E-09	RHS norm: 7.49401E-13
+Point found:	1.03273E+00	2.98230E-01	
+
+New point:	Parameter: 1.03301E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.66891E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.55295E-05	RHS norm: 1.36023E-08
+	dY  norm: 1.26563E-09	RHS norm: 6.94778E-13
+Point found:	1.03301E+00	2.98228E-01	
+
+New point:	Parameter: 1.03329E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.66372E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.54790E-05	RHS norm: 1.35359E-08
+	dY  norm: 1.25928E-09	RHS norm: 6.85674E-13
+Point found:	1.03329E+00	2.98227E-01	
+
+New point:	Parameter: 1.03357E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.65854E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.54287E-05	RHS norm: 1.34699E-08
+	dY  norm: 1.25296E-09	RHS norm: 7.59171E-13
+Point found:	1.03357E+00	2.98225E-01	
+
+New point:	Parameter: 1.03385E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.65338E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.53786E-05	RHS norm: 1.34042E-08
+	dY  norm: 1.24668E-09	RHS norm: 7.19647E-13
+Point found:	1.03385E+00	2.98223E-01	
+
+New point:	Parameter: 1.03413E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.64824E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.53286E-05	RHS norm: 1.33389E-08
+	dY  norm: 1.24043E-09	RHS norm: 7.05658E-13
+Point found:	1.03413E+00	2.98222E-01	
+
+New point:	Parameter: 1.03441E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.64310E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.52788E-05	RHS norm: 1.32738E-08
+	dY  norm: 1.23421E-09	RHS norm: 7.59171E-13
+Point found:	1.03441E+00	2.98220E-01	
+
+New point:	Parameter: 1.03469E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.63799E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.52291E-05	RHS norm: 1.32091E-08
+	dY  norm: 1.22803E-09	RHS norm: 7.52731E-13
+Point found:	1.03469E+00	2.98219E-01	
+
+New point:	Parameter: 1.03497E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.63288E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.51795E-05	RHS norm: 1.31448E-08
+	dY  norm: 1.22188E-09	RHS norm: 7.13651E-13
+Point found:	1.03497E+00	2.98217E-01	
+
+New point:	Parameter: 1.03525E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.62779E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.51301E-05	RHS norm: 1.30807E-08
+	dY  norm: 1.21576E-09	RHS norm: 7.06990E-13
+Point found:	1.03525E+00	2.98216E-01	
+
+New point:	Parameter: 1.03553E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.62271E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.50808E-05	RHS norm: 1.30170E-08
+	dY  norm: 1.20967E-09	RHS norm: 6.95444E-13
+Point found:	1.03553E+00	2.98214E-01	
+
+New point:	Parameter: 1.03581E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.61765E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.50317E-05	RHS norm: 1.29535E-08
+	dY  norm: 1.20361E-09	RHS norm: 6.89226E-13
+Point found:	1.03581E+00	2.98213E-01	
+
+New point:	Parameter: 1.03608E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.61259E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.49827E-05	RHS norm: 1.28904E-08
+	dY  norm: 1.19758E-09	RHS norm: 6.71019E-13
+Point found:	1.03608E+00	2.98211E-01	
+
+New point:	Parameter: 1.03636E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.60756E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.49339E-05	RHS norm: 1.28276E-08
+	dY  norm: 1.19158E-09	RHS norm: 6.62137E-13
+Point found:	1.03636E+00	2.98210E-01	
+
+New point:	Parameter: 1.03664E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.60253E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.48852E-05	RHS norm: 1.27651E-08
+	dY  norm: 1.18562E-09	RHS norm: 6.76348E-13
+Point found:	1.03664E+00	2.98208E-01	
+
+New point:	Parameter: 1.03691E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.59752E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.48367E-05	RHS norm: 1.27029E-08
+	dY  norm: 1.17968E-09	RHS norm: 6.89004E-13
+Point found:	1.03691E+00	2.98207E-01	
+
+New point:	Parameter: 1.03719E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.59253E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.47883E-05	RHS norm: 1.26410E-08
+	dY  norm: 1.17377E-09	RHS norm: 6.75460E-13
+Point found:	1.03719E+00	2.98205E-01	
+
+New point:	Parameter: 1.03746E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.58754E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.47400E-05	RHS norm: 1.25795E-08
+	dY  norm: 1.16790E-09	RHS norm: 6.56808E-13
+Point found:	1.03746E+00	2.98204E-01	
+
+New point:	Parameter: 1.03774E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.58257E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.46919E-05	RHS norm: 1.25182E-08
+	dY  norm: 1.16206E-09	RHS norm: 6.42153E-13
+Point found:	1.03774E+00	2.98202E-01	
+
+New point:	Parameter: 1.03801E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.57762E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.46439E-05	RHS norm: 1.24573E-08
+	dY  norm: 1.15624E-09	RHS norm: 6.20393E-13
+Point found:	1.03801E+00	2.98201E-01	
+
+New point:	Parameter: 1.03829E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.57268E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.45961E-05	RHS norm: 1.23966E-08
+	dY  norm: 1.15046E-09	RHS norm: 6.43929E-13
+Point found:	1.03829E+00	2.98200E-01	
+
+New point:	Parameter: 1.03856E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.56775E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.45484E-05	RHS norm: 1.23362E-08
+	dY  norm: 1.14470E-09	RHS norm: 7.18092E-13
+Point found:	1.03856E+00	2.98198E-01	
+
+New point:	Parameter: 1.03883E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.56283E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.45008E-05	RHS norm: 1.22761E-08
+	dY  norm: 1.13897E-09	RHS norm: 6.55476E-13
+Point found:	1.03883E+00	2.98197E-01	
+
+New point:	Parameter: 1.03910E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.55793E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.44534E-05	RHS norm: 1.22164E-08
+	dY  norm: 1.13328E-09	RHS norm: 6.30385E-13
+Point found:	1.03910E+00	2.98195E-01	
+
+New point:	Parameter: 1.03938E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.55304E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.44061E-05	RHS norm: 1.21569E-08
+	dY  norm: 1.12762E-09	RHS norm: 6.99441E-13
+Point found:	1.03938E+00	2.98194E-01	
+
+New point:	Parameter: 1.03965E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.54816E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.43590E-05	RHS norm: 1.20977E-08
+	dY  norm: 1.12197E-09	RHS norm: 5.93081E-13
+Point found:	1.03965E+00	2.98192E-01	
+
+New point:	Parameter: 1.03992E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.54330E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.43120E-05	RHS norm: 1.20389E-08
+	dY  norm: 1.11637E-09	RHS norm: 5.99298E-13
+Point found:	1.03992E+00	2.98191E-01	
+
+New point:	Parameter: 1.04019E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.53845E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.42651E-05	RHS norm: 1.19803E-08
+	dY  norm: 1.11079E-09	RHS norm: 6.08180E-13
+Point found:	1.04019E+00	2.98189E-01	
+
+New point:	Parameter: 1.04046E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.53361E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.42184E-05	RHS norm: 1.19220E-08
+	dY  norm: 1.10524E-09	RHS norm: 6.03073E-13
+Point found:	1.04046E+00	2.98188E-01	
+
+New point:	Parameter: 1.04073E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.52879E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.41718E-05	RHS norm: 1.18640E-08
+	dY  norm: 1.09972E-09	RHS norm: 5.94857E-13
+Point found:	1.04073E+00	2.98187E-01	
+
+New point:	Parameter: 1.04100E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.52398E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.41253E-05	RHS norm: 1.18063E-08
+	dY  norm: 1.09423E-09	RHS norm: 5.83311E-13
+Point found:	1.04100E+00	2.98185E-01	
+
+New point:	Parameter: 1.04127E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.51918E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.40790E-05	RHS norm: 1.17489E-08
+	dY  norm: 1.08877E-09	RHS norm: 5.22471E-13
+Point found:	1.04127E+00	2.98184E-01	
+
+New point:	Parameter: 1.04154E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.51440E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.40329E-05	RHS norm: 1.16917E-08
+	dY  norm: 1.08333E-09	RHS norm: 5.48006E-13
+Point found:	1.04154E+00	2.98182E-01	
+
+New point:	Parameter: 1.04181E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.50963E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.39868E-05	RHS norm: 1.16348E-08
+	dY  norm: 1.07791E-09	RHS norm: 6.02185E-13
+Point found:	1.04181E+00	2.98181E-01	
+
+New point:	Parameter: 1.04207E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.50487E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.39409E-05	RHS norm: 1.15783E-08
+	dY  norm: 1.07253E-09	RHS norm: 5.75762E-13
+Point found:	1.04207E+00	2.98180E-01	
+
+New point:	Parameter: 1.04234E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.50012E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.38952E-05	RHS norm: 1.15220E-08
+	dY  norm: 1.06718E-09	RHS norm: 5.48672E-13
+Point found:	1.04234E+00	2.98178E-01	
+
+New point:	Parameter: 1.04261E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.49539E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.38495E-05	RHS norm: 1.14659E-08
+	dY  norm: 1.06185E-09	RHS norm: 6.36824E-13
+Point found:	1.04261E+00	2.98177E-01	
+
+New point:	Parameter: 1.04287E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.49067E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.38040E-05	RHS norm: 1.14102E-08
+	dY  norm: 1.05656E-09	RHS norm: 5.57332E-13
+Point found:	1.04287E+00	2.98175E-01	
+
+New point:	Parameter: 1.04314E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.48597E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.37587E-05	RHS norm: 1.13548E-08
+	dY  norm: 1.05128E-09	RHS norm: 5.65770E-13
+Point found:	1.04314E+00	2.98174E-01	
+
+New point:	Parameter: 1.04341E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.48127E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.37135E-05	RHS norm: 1.12996E-08
+	dY  norm: 1.04604E-09	RHS norm: 5.48006E-13
+Point found:	1.04341E+00	2.98173E-01	
+
+New point:	Parameter: 1.04367E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.47659E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.36684E-05	RHS norm: 1.12447E-08
+	dY  norm: 1.04082E-09	RHS norm: 5.46230E-13
+Point found:	1.04367E+00	2.98171E-01	
+
+New point:	Parameter: 1.04394E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.47193E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.36234E-05	RHS norm: 1.11900E-08
+	dY  norm: 1.03563E-09	RHS norm: 5.34239E-13
+Point found:	1.04394E+00	2.98170E-01	
+
+New point:	Parameter: 1.04420E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.46727E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.35786E-05	RHS norm: 1.11357E-08
+	dY  norm: 1.03047E-09	RHS norm: 5.25358E-13
+Point found:	1.04420E+00	2.98169E-01	
+
+New point:	Parameter: 1.04446E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.46263E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.35339E-05	RHS norm: 1.10816E-08
+	dY  norm: 1.02533E-09	RHS norm: 5.16254E-13
+Point found:	1.04446E+00	2.98167E-01	
+
+New point:	Parameter: 1.04473E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.45800E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.34893E-05	RHS norm: 1.10278E-08
+	dY  norm: 1.02023E-09	RHS norm: 5.09148E-13
+Point found:	1.04473E+00	2.98166E-01	
+
+New point:	Parameter: 1.04499E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.45339E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.34449E-05	RHS norm: 1.09742E-08
+	dY  norm: 1.01514E-09	RHS norm: 5.55112E-13
+Point found:	1.04499E+00	2.98165E-01	
+
+New point:	Parameter: 1.04525E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.44878E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.34006E-05	RHS norm: 1.09209E-08
+	dY  norm: 1.01008E-09	RHS norm: 5.57110E-13
+Point found:	1.04525E+00	2.98163E-01	
+
+New point:	Parameter: 1.04552E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.44419E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.33565E-05	RHS norm: 1.08678E-08
+	dY  norm: 1.00505E-09	RHS norm: 5.40679E-13
+Point found:	1.04552E+00	2.98162E-01	
+
+New point:	Parameter: 1.04578E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.43961E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.33124E-05	RHS norm: 1.08151E-08
+	dY  norm: 1.00004E-09	RHS norm: 5.23803E-13
+Point found:	1.04578E+00	2.98161E-01	
+
+New point:	Parameter: 1.04604E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.43505E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.32686E-05	RHS norm: 1.07626E-08
+	dY  norm: 9.95064E-10	RHS norm: 5.02931E-13
+Point found:	1.04604E+00	2.98159E-01	
+
+New point:	Parameter: 1.04630E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.43050E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.32248E-05	RHS norm: 1.07104E-08
+	dY  norm: 9.90112E-10	RHS norm: 5.04929E-13
+Point found:	1.04630E+00	2.98158E-01	
+
+New point:	Parameter: 1.04656E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.42596E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.31812E-05	RHS norm: 1.06584E-08
+	dY  norm: 9.85183E-10	RHS norm: 5.01155E-13
+Point found:	1.04656E+00	2.98157E-01	
+
+New point:	Parameter: 1.04682E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.42143E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.31377E-05	RHS norm: 1.06067E-08
+	dY  norm: 9.80279E-10	RHS norm: 5.64659E-13
+Point found:	1.04682E+00	2.98155E-01	
+
+New point:	Parameter: 1.04708E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.41691E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.30943E-05	RHS norm: 1.05552E-08
+	dY  norm: 9.75395E-10	RHS norm: 5.69989E-13
+Point found:	1.04708E+00	2.98154E-01	
+
+New point:	Parameter: 1.04734E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.41241E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.30510E-05	RHS norm: 1.05040E-08
+	dY  norm: 9.70544E-10	RHS norm: 4.89386E-13
+Point found:	1.04734E+00	2.98153E-01	
+
+New point:	Parameter: 1.04760E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.40792E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.30079E-05	RHS norm: 1.04531E-08
+	dY  norm: 9.65724E-10	RHS norm: 4.94493E-13
+Point found:	1.04760E+00	2.98151E-01	
+
+New point:	Parameter: 1.04786E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.40344E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.29649E-05	RHS norm: 1.04024E-08
+	dY  norm: 9.60920E-10	RHS norm: 5.45564E-13
+Point found:	1.04786E+00	2.98150E-01	
+
+New point:	Parameter: 1.04812E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.39898E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.29221E-05	RHS norm: 1.03519E-08
+	dY  norm: 9.56138E-10	RHS norm: 4.66294E-13
+Point found:	1.04812E+00	2.98149E-01	
+
+New point:	Parameter: 1.04837E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.39453E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.28794E-05	RHS norm: 1.03018E-08
+	dY  norm: 9.51391E-10	RHS norm: 4.76286E-13
+Point found:	1.04837E+00	2.98147E-01	
+
+New point:	Parameter: 1.04863E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.39009E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.28368E-05	RHS norm: 1.02519E-08
+	dY  norm: 9.46662E-10	RHS norm: 4.65628E-13
+Point found:	1.04863E+00	2.98146E-01	
+
+New point:	Parameter: 1.04889E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.38566E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.27943E-05	RHS norm: 1.02022E-08
+	dY  norm: 9.41959E-10	RHS norm: 4.64961E-13
+Point found:	1.04889E+00	2.98145E-01	
+
+New point:	Parameter: 1.04915E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.38124E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.27520E-05	RHS norm: 1.01528E-08
+	dY  norm: 9.37280E-10	RHS norm: 4.54969E-13
+Point found:	1.04915E+00	2.98144E-01	
+
+New point:	Parameter: 1.04940E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.37684E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.27097E-05	RHS norm: 1.01036E-08
+	dY  norm: 9.32627E-10	RHS norm: 4.19664E-13
+Point found:	1.04940E+00	2.98142E-01	
+
+New point:	Parameter: 1.04966E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.37245E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.26677E-05	RHS norm: 1.00547E-08
+	dY  norm: 9.27998E-10	RHS norm: 3.93685E-13
+Point found:	1.04966E+00	2.98141E-01	
+
+New point:	Parameter: 1.04991E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.36807E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.26257E-05	RHS norm: 1.00059E-08
+	dY  norm: 9.23382E-10	RHS norm: 4.69624E-13
+Point found:	1.04991E+00	2.98140E-01	
+
+New point:	Parameter: 1.05017E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.36370E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.25839E-05	RHS norm: 9.95746E-09
+	dY  norm: 9.18797E-10	RHS norm: 4.82281E-13
+Point found:	1.05017E+00	2.98139E-01	
+
+New point:	Parameter: 1.05042E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.35935E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.25421E-05	RHS norm: 9.90930E-09
+	dY  norm: 9.14243E-10	RHS norm: 4.24993E-13
+Point found:	1.05042E+00	2.98137E-01	
+
+New point:	Parameter: 1.05068E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.35501E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.25006E-05	RHS norm: 9.86129E-09
+	dY  norm: 9.09702E-10	RHS norm: 4.65850E-13
+Point found:	1.05068E+00	2.98136E-01	
+
+New point:	Parameter: 1.05093E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.35068E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.24591E-05	RHS norm: 9.81352E-09
+	dY  norm: 9.05186E-10	RHS norm: 5.15810E-13
+Point found:	1.05093E+00	2.98135E-01	
+
+New point:	Parameter: 1.05118E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.34636E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.24178E-05	RHS norm: 9.76609E-09
+	dY  norm: 9.00702E-10	RHS norm: 4.31877E-13
+Point found:	1.05118E+00	2.98134E-01	
+
+New point:	Parameter: 1.05144E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.34206E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.23766E-05	RHS norm: 9.71883E-09
+	dY  norm: 8.96235E-10	RHS norm: 4.39870E-13
+Point found:	1.05144E+00	2.98132E-01	
+
+New point:	Parameter: 1.05169E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.33776E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.23355E-05	RHS norm: 9.67181E-09
+	dY  norm: 8.91792E-10	RHS norm: 4.32987E-13
+Point found:	1.05169E+00	2.98131E-01	
+
+New point:	Parameter: 1.05194E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.33348E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.22945E-05	RHS norm: 9.62505E-09
+	dY  norm: 8.87373E-10	RHS norm: 4.07896E-13
+Point found:	1.05194E+00	2.98130E-01	
+
+New point:	Parameter: 1.05219E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.32921E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.22537E-05	RHS norm: 9.57850E-09
+	dY  norm: 8.82976E-10	RHS norm: 4.04565E-13
+Point found:	1.05219E+00	2.98129E-01	
+
+New point:	Parameter: 1.05244E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.32495E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.22130E-05	RHS norm: 9.53219E-09
+	dY  norm: 8.78601E-10	RHS norm: 3.99236E-13
+Point found:	1.05244E+00	2.98127E-01	
+
+New point:	Parameter: 1.05270E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.32071E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.21724E-05	RHS norm: 9.48612E-09
+	dY  norm: 8.74250E-10	RHS norm: 3.96794E-13
+Point found:	1.05270E+00	2.98126E-01	
+
+New point:	Parameter: 1.05295E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.31648E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.21319E-05	RHS norm: 9.44027E-09
+	dY  norm: 8.69921E-10	RHS norm: 3.78586E-13
+Point found:	1.05295E+00	2.98125E-01	
+
+New point:	Parameter: 1.05320E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.31226E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.20916E-05	RHS norm: 9.39465E-09
+	dY  norm: 8.65614E-10	RHS norm: 4.40092E-13
+Point found:	1.05320E+00	2.98124E-01	
+
+New point:	Parameter: 1.05345E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.30805E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.20513E-05	RHS norm: 9.34918E-09
+	dY  norm: 8.61322E-10	RHS norm: 4.49862E-13
+Point found:	1.05345E+00	2.98123E-01	
+
+New point:	Parameter: 1.05369E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.30385E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.20112E-05	RHS norm: 9.30403E-09
+	dY  norm: 8.57060E-10	RHS norm: 4.36540E-13
+Point found:	1.05369E+00	2.98121E-01	
+
+New point:	Parameter: 1.05394E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.29966E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.19713E-05	RHS norm: 9.25908E-09
+	dY  norm: 8.52819E-10	RHS norm: 4.31655E-13
+Point found:	1.05394E+00	2.98120E-01	
+
+New point:	Parameter: 1.05419E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.29549E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.19314E-05	RHS norm: 9.21439E-09
+	dY  norm: 8.48602E-10	RHS norm: 4.02123E-13
+Point found:	1.05419E+00	2.98119E-01	
+
+New point:	Parameter: 1.05444E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.29133E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.18917E-05	RHS norm: 9.16992E-09
+	dY  norm: 8.44408E-10	RHS norm: 3.89466E-13
+Point found:	1.05444E+00	2.98118E-01	
+
+New point:	Parameter: 1.05469E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.28718E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.18521E-05	RHS norm: 9.12566E-09
+	dY  norm: 8.40233E-10	RHS norm: 3.99902E-13
+Point found:	1.05469E+00	2.98117E-01	
+
+New point:	Parameter: 1.05494E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.28304E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.18126E-05	RHS norm: 9.08162E-09
+	dY  norm: 8.36080E-10	RHS norm: 3.88578E-13
+Point found:	1.05494E+00	2.98115E-01	
+
+New point:	Parameter: 1.05518E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.27891E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.17732E-05	RHS norm: 9.03778E-09
+	dY  norm: 8.31947E-10	RHS norm: 4.43201E-13
+Point found:	1.05518E+00	2.98114E-01	
+
+New point:	Parameter: 1.05543E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.27480E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.17339E-05	RHS norm: 8.99412E-09
+	dY  norm: 8.27830E-10	RHS norm: 4.78062E-13
+Point found:	1.05543E+00	2.98113E-01	
+
+New point:	Parameter: 1.05567E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.27069E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.16948E-05	RHS norm: 8.95071E-09
+	dY  norm: 8.23739E-10	RHS norm: 3.95683E-13
+Point found:	1.05567E+00	2.98112E-01	
+
+New point:	Parameter: 1.05592E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.26660E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.16558E-05	RHS norm: 8.90763E-09
+	dY  norm: 8.19679E-10	RHS norm: 3.69038E-13
+Point found:	1.05592E+00	2.98111E-01	
+
+New point:	Parameter: 1.05617E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.26252E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.16169E-05	RHS norm: 8.86469E-09
+	dY  norm: 8.15632E-10	RHS norm: 4.46976E-13
+Point found:	1.05617E+00	2.98110E-01	
+
+New point:	Parameter: 1.05641E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.25845E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.15781E-05	RHS norm: 8.82187E-09
+	dY  norm: 8.11598E-10	RHS norm: 4.08118E-13
+Point found:	1.05641E+00	2.98108E-01	
+
+New point:	Parameter: 1.05666E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.25440E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.15394E-05	RHS norm: 8.77940E-09
+	dY  norm: 8.07598E-10	RHS norm: 3.76366E-13
+Point found:	1.05666E+00	2.98107E-01	
+
+New point:	Parameter: 1.05690E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.25035E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.15009E-05	RHS norm: 8.73712E-09
+	dY  norm: 8.03616E-10	RHS norm: 3.61045E-13
+Point found:	1.05690E+00	2.98106E-01	
+
+New point:	Parameter: 1.05714E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.24632E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.14625E-05	RHS norm: 8.69503E-09
+	dY  norm: 7.99652E-10	RHS norm: 3.59268E-13
+Point found:	1.05714E+00	2.98105E-01	
+
+New point:	Parameter: 1.05739E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.24230E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.14242E-05	RHS norm: 8.65316E-09
+	dY  norm: 7.95710E-10	RHS norm: 3.40172E-13
+Point found:	1.05739E+00	2.98104E-01	
+
+New point:	Parameter: 1.05763E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.23829E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.13860E-05	RHS norm: 8.61149E-09
+	dY  norm: 7.91788E-10	RHS norm: 3.31735E-13
+Point found:	1.05763E+00	2.98103E-01	
+
+New point:	Parameter: 1.05787E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.23429E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.13479E-05	RHS norm: 8.57007E-09
+	dY  norm: 7.87889E-10	RHS norm: 2.82885E-13
+Point found:	1.05787E+00	2.98102E-01	
+
+New point:	Parameter: 1.05811E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.23030E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.13099E-05	RHS norm: 8.52874E-09
+	dY  norm: 7.84000E-10	RHS norm: 3.60600E-13
+Point found:	1.05811E+00	2.98100E-01	
+
+New point:	Parameter: 1.05836E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.22632E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.12721E-05	RHS norm: 8.48763E-09
+	dY  norm: 7.80132E-10	RHS norm: 4.13003E-13
+Point found:	1.05836E+00	2.98099E-01	
+
+New point:	Parameter: 1.05860E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.22236E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.12344E-05	RHS norm: 8.44682E-09
+	dY  norm: 7.76292E-10	RHS norm: 3.79030E-13
+Point found:	1.05860E+00	2.98098E-01	
+
+New point:	Parameter: 1.05884E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.21840E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.11967E-05	RHS norm: 8.40622E-09
+	dY  norm: 7.72473E-10	RHS norm: 3.31957E-13
+Point found:	1.05884E+00	2.98097E-01	
+
+New point:	Parameter: 1.05908E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.21446E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.11593E-05	RHS norm: 8.36569E-09
+	dY  norm: 7.68662E-10	RHS norm: 4.20330E-13
+Point found:	1.05908E+00	2.98096E-01	
+
+New point:	Parameter: 1.05932E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.21053E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.11219E-05	RHS norm: 8.32549E-09
+	dY  norm: 7.64881E-10	RHS norm: 3.90799E-13
+Point found:	1.05932E+00	2.98095E-01	
+
+New point:	Parameter: 1.05956E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.20661E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.10846E-05	RHS norm: 8.28551E-09
+	dY  norm: 7.61122E-10	RHS norm: 3.41061E-13
+Point found:	1.05956E+00	2.98094E-01	
+
+New point:	Parameter: 1.05980E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.20270E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.10475E-05	RHS norm: 8.24569E-09
+	dY  norm: 7.57380E-10	RHS norm: 3.28848E-13
+Point found:	1.05980E+00	2.98093E-01	
+
+New point:	Parameter: 1.06004E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.19880E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.10104E-05	RHS norm: 8.20607E-09
+	dY  norm: 7.53655E-10	RHS norm: 3.22409E-13
+Point found:	1.06004E+00	2.98092E-01	
+
+New point:	Parameter: 1.06028E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.19492E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.09735E-05	RHS norm: 8.16664E-09
+	dY  norm: 7.49950E-10	RHS norm: 3.14193E-13
+Point found:	1.06028E+00	2.98090E-01	
+
+New point:	Parameter: 1.06051E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.19104E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.09367E-05	RHS norm: 8.12742E-09
+	dY  norm: 7.46265E-10	RHS norm: 2.99760E-13
+Point found:	1.06051E+00	2.98089E-01	
+
+New point:	Parameter: 1.06075E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.18718E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.09000E-05	RHS norm: 8.08838E-09
+	dY  norm: 7.42597E-10	RHS norm: 2.99760E-13
+Point found:	1.06075E+00	2.98088E-01	
+
+New point:	Parameter: 1.06099E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.18333E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.08634E-05	RHS norm: 8.04955E-09
+	dY  norm: 7.38950E-10	RHS norm: 2.93321E-13
+Point found:	1.06099E+00	2.98087E-01	
+
+New point:	Parameter: 1.06123E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.17949E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.08269E-05	RHS norm: 8.01091E-09
+	dY  norm: 7.35321E-10	RHS norm: 2.88214E-13
+Point found:	1.06123E+00	2.98086E-01	
+
+New point:	Parameter: 1.06146E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.17566E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.07906E-05	RHS norm: 7.97245E-09
+	dY  norm: 7.31710E-10	RHS norm: 2.86438E-13
+Point found:	1.06146E+00	2.98085E-01	
+
+New point:	Parameter: 1.06170E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.17184E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.07543E-05	RHS norm: 7.93420E-09
+	dY  norm: 7.28118E-10	RHS norm: 2.75557E-13
+Point found:	1.06170E+00	2.98084E-01	
+
+New point:	Parameter: 1.06194E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.16803E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.07182E-05	RHS norm: 7.89614E-09
+	dY  norm: 7.24545E-10	RHS norm: 3.64153E-13
+Point found:	1.06194E+00	2.98083E-01	
+
+New point:	Parameter: 1.06217E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.16423E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.06821E-05	RHS norm: 7.85819E-09
+	dY  norm: 7.20983E-10	RHS norm: 3.51053E-13
+Point found:	1.06217E+00	2.98082E-01	
+
+New point:	Parameter: 1.06241E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.16045E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.06462E-05	RHS norm: 7.82052E-09
+	dY  norm: 7.17448E-10	RHS norm: 3.32623E-13
+Point found:	1.06241E+00	2.98081E-01	
+
+New point:	Parameter: 1.06264E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.15667E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.06104E-05	RHS norm: 7.78304E-09
+	dY  norm: 7.13932E-10	RHS norm: 3.12417E-13
+Point found:	1.06264E+00	2.98080E-01	
+
+New point:	Parameter: 1.06288E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.15291E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.05747E-05	RHS norm: 7.74576E-09
+	dY  norm: 7.10434E-10	RHS norm: 2.93543E-13
+Point found:	1.06288E+00	2.98079E-01	
+
+New point:	Parameter: 1.06311E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.14915E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.05392E-05	RHS norm: 7.70864E-09
+	dY  norm: 7.06952E-10	RHS norm: 2.88658E-13
+Point found:	1.06311E+00	2.98078E-01	
+
+New point:	Parameter: 1.06334E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.14541E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.05037E-05	RHS norm: 7.67173E-09
+	dY  norm: 7.03489E-10	RHS norm: 2.95319E-13
+Point found:	1.06334E+00	2.98076E-01	
+
+New point:	Parameter: 1.06358E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.14168E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.04683E-05	RHS norm: 7.63497E-09
+	dY  norm: 7.00043E-10	RHS norm: 3.21299E-13
+Point found:	1.06358E+00	2.98075E-01	
+
+New point:	Parameter: 1.06381E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.13796E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.04331E-05	RHS norm: 7.59838E-09
+	dY  norm: 6.96612E-10	RHS norm: 3.87024E-13
+Point found:	1.06381E+00	2.98074E-01	
+
+New point:	Parameter: 1.06404E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.13425E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.03979E-05	RHS norm: 7.56194E-09
+	dY  norm: 6.93196E-10	RHS norm: 3.38396E-13
+Point found:	1.06404E+00	2.98073E-01	
+
+New point:	Parameter: 1.06427E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.13055E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.03629E-05	RHS norm: 7.52580E-09
+	dY  norm: 6.89808E-10	RHS norm: 2.68008E-13
+Point found:	1.06427E+00	2.98072E-01	
+
+New point:	Parameter: 1.06451E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.12686E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.03280E-05	RHS norm: 7.48984E-09
+	dY  norm: 6.86438E-10	RHS norm: 3.01092E-13
+Point found:	1.06451E+00	2.98071E-01	
+
+New point:	Parameter: 1.06474E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.12318E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.02931E-05	RHS norm: 7.45397E-09
+	dY  norm: 6.83077E-10	RHS norm: 3.84581E-13
+Point found:	1.06474E+00	2.98070E-01	
+
+New point:	Parameter: 1.06497E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.11952E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.02584E-05	RHS norm: 7.41825E-09
+	dY  norm: 6.79731E-10	RHS norm: 2.87326E-13
+Point found:	1.06497E+00	2.98069E-01	
+
+New point:	Parameter: 1.06520E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.11586E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.02238E-05	RHS norm: 7.38288E-09
+	dY  norm: 6.76417E-10	RHS norm: 2.72005E-13
+Point found:	1.06520E+00	2.98068E-01	
+
+New point:	Parameter: 1.06543E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.11221E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.01893E-05	RHS norm: 7.34760E-09
+	dY  norm: 6.73112E-10	RHS norm: 2.69562E-13
+Point found:	1.06543E+00	2.98067E-01	
+
+New point:	Parameter: 1.06566E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.10858E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.01549E-05	RHS norm: 7.31249E-09
+	dY  norm: 6.69824E-10	RHS norm: 2.53575E-13
+Point found:	1.06566E+00	2.98066E-01	
+
+New point:	Parameter: 1.06589E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.10495E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.01206E-05	RHS norm: 7.27757E-09
+	dY  norm: 6.66554E-10	RHS norm: 2.26263E-13
+Point found:	1.06589E+00	2.98065E-01	
+
+New point:	Parameter: 1.06612E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.10134E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.00865E-05	RHS norm: 7.24282E-09
+	dY  norm: 6.63301E-10	RHS norm: 2.16716E-13
+Point found:	1.06612E+00	2.98064E-01	
+
+New point:	Parameter: 1.06635E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.09774E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.00524E-05	RHS norm: 7.20818E-09
+	dY  norm: 6.60058E-10	RHS norm: 2.65343E-13
+Point found:	1.06635E+00	2.98063E-01	
+
+New point:	Parameter: 1.06657E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.09414E-04
+Computing jacobian.....Ok!
+	dY  norm: 1.00184E-05	RHS norm: 7.17368E-09
+	dY  norm: 6.56830E-10	RHS norm: 3.41505E-13
+Point found:	1.06657E+00	2.98062E-01	
+
+New point:	Parameter: 1.06680E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.09056E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.98458E-06	RHS norm: 7.13945E-09
+	dY  norm: 6.53626E-10	RHS norm: 3.41949E-13
+Point found:	1.06680E+00	2.98061E-01	
+
+New point:	Parameter: 1.06703E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.08699E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.95082E-06	RHS norm: 7.10544E-09
+	dY  norm: 6.50444E-10	RHS norm: 2.63345E-13
+Point found:	1.06703E+00	2.98060E-01	
+
+New point:	Parameter: 1.06726E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.08343E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.91717E-06	RHS norm: 7.07153E-09
+	dY  norm: 6.47272E-10	RHS norm: 2.75335E-13
+Point found:	1.06726E+00	2.98059E-01	
+
+New point:	Parameter: 1.06748E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.07988E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.88363E-06	RHS norm: 7.03772E-09
+	dY  norm: 6.44108E-10	RHS norm: 3.59490E-13
+Point found:	1.06748E+00	2.98058E-01	
+
+New point:	Parameter: 1.06771E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.07634E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.85019E-06	RHS norm: 7.00422E-09
+	dY  norm: 6.40975E-10	RHS norm: 2.98650E-13
+Point found:	1.06771E+00	2.98057E-01	
+
+New point:	Parameter: 1.06794E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.07281E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.81685E-06	RHS norm: 6.97085E-09
+	dY  norm: 6.37855E-10	RHS norm: 2.66231E-13
+Point found:	1.06794E+00	2.98056E-01	
+
+New point:	Parameter: 1.06816E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.06929E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.78362E-06	RHS norm: 6.93765E-09
+	dY  norm: 6.34751E-10	RHS norm: 2.32703E-13
+Point found:	1.06816E+00	2.98055E-01	
+
+New point:	Parameter: 1.06839E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.06578E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.75049E-06	RHS norm: 6.90461E-09
+	dY  norm: 6.31662E-10	RHS norm: 2.25375E-13
+Point found:	1.06839E+00	2.98054E-01	
+
+New point:	Parameter: 1.06861E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.06228E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.71747E-06	RHS norm: 6.87174E-09
+	dY  norm: 6.28589E-10	RHS norm: 2.23599E-13
+Point found:	1.06861E+00	2.98053E-01	
+
+New point:	Parameter: 1.06884E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.05879E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.68455E-06	RHS norm: 6.83900E-09
+	dY  norm: 6.25529E-10	RHS norm: 2.27818E-13
+Point found:	1.06884E+00	2.98052E-01	
+
+New point:	Parameter: 1.06906E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.05531E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.65173E-06	RHS norm: 6.80644E-09
+	dY  norm: 6.22486E-10	RHS norm: 2.18936E-13
+Point found:	1.06906E+00	2.98051E-01	
+
+New point:	Parameter: 1.06929E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.05185E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.61901E-06	RHS norm: 6.77405E-09
+	dY  norm: 6.19461E-10	RHS norm: 2.13385E-13
+Point found:	1.06929E+00	2.98050E-01	
+
+New point:	Parameter: 1.06951E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.04839E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.58640E-06	RHS norm: 6.74182E-09
+	dY  norm: 6.16449E-10	RHS norm: 2.15383E-13
+Point found:	1.06951E+00	2.98049E-01	
+
+New point:	Parameter: 1.06973E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.04494E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.55389E-06	RHS norm: 6.70975E-09
+	dY  norm: 6.13453E-10	RHS norm: 2.15605E-13
+Point found:	1.06973E+00	2.98048E-01	
+
+New point:	Parameter: 1.06995E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.04150E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.52148E-06	RHS norm: 6.67782E-09
+	dY  norm: 6.10472E-10	RHS norm: 2.07168E-13
+Point found:	1.06995E+00	2.98048E-01	
+
+New point:	Parameter: 1.07018E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.03808E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.48917E-06	RHS norm: 6.64608E-09
+	dY  norm: 6.07508E-10	RHS norm: 2.12497E-13
+Point found:	1.07018E+00	2.98047E-01	
+
+New point:	Parameter: 1.07040E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.03466E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.45696E-06	RHS norm: 6.61448E-09
+	dY  norm: 6.04557E-10	RHS norm: 3.03091E-13
+Point found:	1.07040E+00	2.98046E-01	
+
+New point:	Parameter: 1.07062E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.03125E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.42486E-06	RHS norm: 6.58299E-09
+	dY  norm: 6.01617E-10	RHS norm: 2.64677E-13
+Point found:	1.07062E+00	2.98045E-01	
+
+New point:	Parameter: 1.07084E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.02785E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.39285E-06	RHS norm: 6.55174E-09
+	dY  norm: 5.98700E-10	RHS norm: 2.50244E-13
+Point found:	1.07084E+00	2.98044E-01	
+
+New point:	Parameter: 1.07106E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.02447E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.36094E-06	RHS norm: 6.52064E-09
+	dY  norm: 5.95798E-10	RHS norm: 2.32037E-13
+Point found:	1.07106E+00	2.98043E-01	
+
+New point:	Parameter: 1.07128E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.02109E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.32914E-06	RHS norm: 6.48969E-09
+	dY  norm: 5.92910E-10	RHS norm: 2.19380E-13
+Point found:	1.07128E+00	2.98042E-01	
+
+New point:	Parameter: 1.07150E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.01772E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.29743E-06	RHS norm: 6.45890E-09
+	dY  norm: 5.90037E-10	RHS norm: 2.20934E-13
+Point found:	1.07150E+00	2.98041E-01	
+
+New point:	Parameter: 1.07172E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.01437E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.26583E-06	RHS norm: 6.42825E-09
+	dY  norm: 5.87177E-10	RHS norm: 2.17382E-13
+Point found:	1.07172E+00	2.98040E-01	
+
+New point:	Parameter: 1.07194E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.01102E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.23432E-06	RHS norm: 6.39775E-09
+	dY  norm: 5.84332E-10	RHS norm: 2.19380E-13
+Point found:	1.07194E+00	2.98039E-01	
+
+New point:	Parameter: 1.07216E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.00768E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.20291E-06	RHS norm: 6.36741E-09
+	dY  norm: 5.81503E-10	RHS norm: 2.61124E-13
+Point found:	1.07216E+00	2.98038E-01	
+
+New point:	Parameter: 1.07238E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.00436E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.17160E-06	RHS norm: 6.33716E-09
+	dY  norm: 5.78682E-10	RHS norm: 3.04423E-13
+Point found:	1.07238E+00	2.98037E-01	
+
+New point:	Parameter: 1.07260E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.00104E-04
+Computing jacobian.....Ok!
+	dY  norm: 9.14039E-06	RHS norm: 6.30709E-09
+	dY  norm: 5.75878E-10	RHS norm: 2.42029E-13
+Point found:	1.07260E+00	2.98036E-01	
+
+New point:	Parameter: 1.07282E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.97732E-05
+Computing jacobian.....Ok!
+	dY  norm: 9.10928E-06	RHS norm: 6.27728E-09
+	dY  norm: 5.73099E-10	RHS norm: 1.81855E-13
+Point found:	1.07282E+00	2.98035E-01	
+
+New point:	Parameter: 1.07304E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.94434E-05
+Computing jacobian.....Ok!
+	dY  norm: 9.07826E-06	RHS norm: 6.24755E-09
+	dY  norm: 5.70328E-10	RHS norm: 2.27374E-13
+Point found:	1.07304E+00	2.98035E-01	
+
+New point:	Parameter: 1.07325E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.91147E-05
+Computing jacobian.....Ok!
+	dY  norm: 9.04735E-06	RHS norm: 6.21795E-09
+	dY  norm: 5.67569E-10	RHS norm: 2.97762E-13
+Point found:	1.07325E+00	2.98034E-01	
+
+New point:	Parameter: 1.07347E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.87869E-05
+Computing jacobian.....Ok!
+	dY  norm: 9.01653E-06	RHS norm: 6.18844E-09
+	dY  norm: 5.64819E-10	RHS norm: 2.54463E-13
+Point found:	1.07347E+00	2.98033E-01	
+
+New point:	Parameter: 1.07369E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.84601E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.98580E-06	RHS norm: 6.15920E-09
+	dY  norm: 5.62095E-10	RHS norm: 1.80522E-13
+Point found:	1.07369E+00	2.98032E-01	
+
+New point:	Parameter: 1.07390E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.81342E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.95518E-06	RHS norm: 6.13014E-09
+	dY  norm: 5.59387E-10	RHS norm: 2.13163E-13
+Point found:	1.07390E+00	2.98031E-01	
+
+New point:	Parameter: 1.07412E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.78094E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.92465E-06	RHS norm: 6.10110E-09
+	dY  norm: 5.56682E-10	RHS norm: 1.84297E-13
+Point found:	1.07412E+00	2.98030E-01	
+
+New point:	Parameter: 1.07433E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.74855E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.89422E-06	RHS norm: 6.07227E-09
+	dY  norm: 5.53997E-10	RHS norm: 1.70530E-13
+Point found:	1.07433E+00	2.98029E-01	
+
+New point:	Parameter: 1.07455E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.71626E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.86388E-06	RHS norm: 6.04356E-09
+	dY  norm: 5.51323E-10	RHS norm: 1.68976E-13
+Point found:	1.07455E+00	2.98028E-01	
+
+New point:	Parameter: 1.07476E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.68406E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.83364E-06	RHS norm: 6.01493E-09
+	dY  norm: 5.48658E-10	RHS norm: 2.36033E-13
+Point found:	1.07476E+00	2.98027E-01	
+
+New point:	Parameter: 1.07498E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.65196E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.80349E-06	RHS norm: 5.98644E-09
+	dY  norm: 5.46005E-10	RHS norm: 3.05089E-13
+Point found:	1.07498E+00	2.98026E-01	
+
+New point:	Parameter: 1.07519E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.61996E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.77344E-06	RHS norm: 5.95818E-09
+	dY  norm: 5.43374E-10	RHS norm: 2.84439E-13
+Point found:	1.07519E+00	2.98026E-01	
+
+New point:	Parameter: 1.07541E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.58805E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.74349E-06	RHS norm: 5.93010E-09
+	dY  norm: 5.40761E-10	RHS norm: 2.13163E-13
+Point found:	1.07541E+00	2.98025E-01	
+
+New point:	Parameter: 1.07562E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.55624E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.71363E-06	RHS norm: 5.90213E-09
+	dY  norm: 5.38158E-10	RHS norm: 1.96732E-13
+Point found:	1.07562E+00	2.98024E-01	
+
+New point:	Parameter: 1.07583E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.52453E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.68386E-06	RHS norm: 5.87419E-09
+	dY  norm: 5.35558E-10	RHS norm: 2.84439E-13
+Point found:	1.07583E+00	2.98023E-01	
+
+New point:	Parameter: 1.07605E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.49290E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.65419E-06	RHS norm: 5.84649E-09
+	dY  norm: 5.32981E-10	RHS norm: 2.60236E-13
+Point found:	1.07605E+00	2.98022E-01	
+
+New point:	Parameter: 1.07626E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.46138E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.62461E-06	RHS norm: 5.81902E-09
+	dY  norm: 5.30426E-10	RHS norm: 1.61204E-13
+Point found:	1.07626E+00	2.98021E-01	
+
+New point:	Parameter: 1.07647E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.42995E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.59513E-06	RHS norm: 5.79148E-09
+	dY  norm: 5.27864E-10	RHS norm: 2.58904E-13
+Point found:	1.07647E+00	2.98020E-01	
+
+New point:	Parameter: 1.07668E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.39861E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.56574E-06	RHS norm: 5.76428E-09
+	dY  norm: 5.25334E-10	RHS norm: 1.57208E-13
+Point found:	1.07668E+00	2.98020E-01	
+
+New point:	Parameter: 1.07689E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.36737E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.53644E-06	RHS norm: 5.73711E-09
+	dY  norm: 5.22808E-10	RHS norm: 1.61204E-13
+Point found:	1.07689E+00	2.98019E-01	
+
+New point:	Parameter: 1.07710E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.33622E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.50723E-06	RHS norm: 5.71009E-09
+	dY  norm: 5.20295E-10	RHS norm: 1.56319E-13
+Point found:	1.07710E+00	2.98018E-01	
+
+New point:	Parameter: 1.07731E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.30517E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.47812E-06	RHS norm: 5.68320E-09
+	dY  norm: 5.17796E-10	RHS norm: 1.65201E-13
+Point found:	1.07731E+00	2.98017E-01	
+
+New point:	Parameter: 1.07752E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.27420E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.44910E-06	RHS norm: 5.65644E-09
+	dY  norm: 5.15308E-10	RHS norm: 1.55431E-13
+Point found:	1.07752E+00	2.98016E-01	
+
+New point:	Parameter: 1.07773E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.24334E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.42018E-06	RHS norm: 5.62982E-09
+	dY  norm: 5.12834E-10	RHS norm: 1.56986E-13
+Point found:	1.07773E+00	2.98015E-01	
+
+New point:	Parameter: 1.07794E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.21256E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.39134E-06	RHS norm: 5.60333E-09
+	dY  norm: 5.10373E-10	RHS norm: 1.48770E-13
+Point found:	1.07794E+00	2.98014E-01	
+
+New point:	Parameter: 1.07815E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.18188E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.36260E-06	RHS norm: 5.57698E-09
+	dY  norm: 5.07924E-10	RHS norm: 1.61204E-13
+Point found:	1.07815E+00	2.98014E-01	
+
+New point:	Parameter: 1.07836E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.15129E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.33394E-06	RHS norm: 5.55074E-09
+	dY  norm: 5.05486E-10	RHS norm: 1.65645E-13
+Point found:	1.07836E+00	2.98013E-01	
+
+New point:	Parameter: 1.07857E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.12079E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.30538E-06	RHS norm: 5.52465E-09
+	dY  norm: 5.03063E-10	RHS norm: 1.63869E-13
+Point found:	1.07857E+00	2.98012E-01	
+
+New point:	Parameter: 1.07878E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.09039E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.27691E-06	RHS norm: 5.49868E-09
+	dY  norm: 5.00651E-10	RHS norm: 1.67422E-13
+Point found:	1.07878E+00	2.98011E-01	
+
+New point:	Parameter: 1.07899E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.06008E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.24853E-06	RHS norm: 5.47285E-09
+	dY  norm: 4.98252E-10	RHS norm: 1.68088E-13
+Point found:	1.07899E+00	2.98010E-01	
+
+New point:	Parameter: 1.07919E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 9.02985E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.22024E-06	RHS norm: 5.44715E-09
+	dY  norm: 4.95865E-10	RHS norm: 1.91624E-13
+Point found:	1.07919E+00	2.98010E-01	
+
+New point:	Parameter: 1.07940E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.99972E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.19204E-06	RHS norm: 5.42156E-09
+	dY  norm: 4.93490E-10	RHS norm: 1.70530E-13
+Point found:	1.07940E+00	2.98009E-01	
+
+New point:	Parameter: 1.07961E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.96969E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.16393E-06	RHS norm: 5.39613E-09
+	dY  norm: 4.91129E-10	RHS norm: 1.55209E-13
+Point found:	1.07961E+00	2.98008E-01	
+
+New point:	Parameter: 1.07981E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.93974E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.13591E-06	RHS norm: 5.37083E-09
+	dY  norm: 4.88780E-10	RHS norm: 1.45661E-13
+Point found:	1.07981E+00	2.98007E-01	
+
+New point:	Parameter: 1.08002E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.90988E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.10798E-06	RHS norm: 5.34564E-09
+	dY  norm: 4.86443E-10	RHS norm: 1.53433E-13
+Point found:	1.08002E+00	2.98006E-01	
+
+New point:	Parameter: 1.08023E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.88012E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.08014E-06	RHS norm: 5.32057E-09
+	dY  norm: 4.84116E-10	RHS norm: 1.46327E-13
+Point found:	1.08023E+00	2.98005E-01	
+
+New point:	Parameter: 1.08043E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.85044E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.05239E-06	RHS norm: 5.29563E-09
+	dY  norm: 4.81802E-10	RHS norm: 1.53655E-13
+Point found:	1.08043E+00	2.98005E-01	
+
+New point:	Parameter: 1.08064E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.82085E-05
+Computing jacobian.....Ok!
+	dY  norm: 8.02473E-06	RHS norm: 5.27082E-09
+	dY  norm: 4.79500E-10	RHS norm: 1.44329E-13
+Point found:	1.08064E+00	2.98004E-01	
+
+New point:	Parameter: 1.08084E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.79136E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.99715E-06	RHS norm: 5.24612E-09
+	dY  norm: 4.77209E-10	RHS norm: 2.01617E-13
+Point found:	1.08084E+00	2.98003E-01	
+
+New point:	Parameter: 1.08105E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.76195E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.96966E-06	RHS norm: 5.22151E-09
+	dY  norm: 4.74927E-10	RHS norm: 2.07390E-13
+Point found:	1.08105E+00	2.98002E-01	
+
+New point:	Parameter: 1.08125E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.73264E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.94226E-06	RHS norm: 5.19707E-09
+	dY  norm: 4.72660E-10	RHS norm: 1.24567E-13
+Point found:	1.08125E+00	2.98001E-01	
+
+New point:	Parameter: 1.08145E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.70341E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.91495E-06	RHS norm: 5.17276E-09
+	dY  norm: 4.70406E-10	RHS norm: 1.41442E-13
+Point found:	1.08145E+00	2.98001E-01	
+
+New point:	Parameter: 1.08166E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.67427E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.88773E-06	RHS norm: 5.14862E-09
+	dY  norm: 4.68167E-10	RHS norm: 1.41887E-13
+Point found:	1.08166E+00	2.98000E-01	
+
+New point:	Parameter: 1.08186E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.64522E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.86059E-06	RHS norm: 5.12451E-09
+	dY  norm: 4.65933E-10	RHS norm: 2.11609E-13
+Point found:	1.08186E+00	2.97999E-01	
+
+New point:	Parameter: 1.08206E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.61626E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.83354E-06	RHS norm: 5.10050E-09
+	dY  norm: 4.63707E-10	RHS norm: 2.00506E-13
+Point found:	1.08206E+00	2.97998E-01	
+
+New point:	Parameter: 1.08226E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.58739E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.80658E-06	RHS norm: 5.07669E-09
+	dY  norm: 4.61501E-10	RHS norm: 8.10463E-14
+Point found:	1.08226E+00	2.97998E-01	
+
+New point:	Parameter: 1.08247E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.55860E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.77970E-06	RHS norm: 5.05309E-09
+	dY  norm: 4.59313E-10	RHS norm: 6.21725E-14
+Point found:	1.08247E+00	2.97997E-01	
+
+New point:	Parameter: 1.08267E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.52990E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.75291E-06	RHS norm: 5.02949E-09
+	dY  norm: 4.57127E-10	RHS norm: 1.34781E-13
+Point found:	1.08267E+00	2.97996E-01	
+
+New point:	Parameter: 1.08287E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.50129E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.72620E-06	RHS norm: 5.00590E-09
+	dY  norm: 4.54942E-10	RHS norm: 1.39222E-13
+Point found:	1.08287E+00	2.97995E-01	
+
+New point:	Parameter: 1.08307E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.47277E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.69958E-06	RHS norm: 4.98253E-09
+	dY  norm: 4.52776E-10	RHS norm: 1.52545E-13
+Point found:	1.08307E+00	2.97994E-01	
+
+New point:	Parameter: 1.08327E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.44434E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.67305E-06	RHS norm: 4.95922E-09
+	dY  norm: 4.50617E-10	RHS norm: 2.15161E-13
+Point found:	1.08327E+00	2.97994E-01	
+
+New point:	Parameter: 1.08347E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.41599E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.64660E-06	RHS norm: 4.93604E-09
+	dY  norm: 4.48471E-10	RHS norm: 2.56906E-13
+Point found:	1.08347E+00	2.97993E-01	
+
+New point:	Parameter: 1.08367E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.38773E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.62024E-06	RHS norm: 4.91304E-09
+	dY  norm: 4.46341E-10	RHS norm: 2.36922E-13
+Point found:	1.08367E+00	2.97992E-01	
+
+New point:	Parameter: 1.08387E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.35955E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.59396E-06	RHS norm: 4.89023E-09
+	dY  norm: 4.44229E-10	RHS norm: 1.53655E-13
+Point found:	1.08387E+00	2.97991E-01	
+
+New point:	Parameter: 1.08407E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.33147E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.56776E-06	RHS norm: 4.86747E-09
+	dY  norm: 4.42122E-10	RHS norm: 1.28342E-13
+Point found:	1.08407E+00	2.97991E-01	
+
+New point:	Parameter: 1.08427E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.30346E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.54165E-06	RHS norm: 4.84471E-09
+	dY  norm: 4.40015E-10	RHS norm: 1.99840E-13
+Point found:	1.08427E+00	2.97990E-01	
+
+New point:	Parameter: 1.08447E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.27555E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.51562E-06	RHS norm: 4.82213E-09
+	dY  norm: 4.37925E-10	RHS norm: 2.11609E-13
+Point found:	1.08447E+00	2.97989E-01	
+
+New point:	Parameter: 1.08467E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.24772E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.48968E-06	RHS norm: 4.79977E-09
+	dY  norm: 4.35855E-10	RHS norm: 1.31228E-13
+Point found:	1.08467E+00	2.97988E-01	
+
+New point:	Parameter: 1.08486E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.21997E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.46382E-06	RHS norm: 4.77748E-09
+	dY  norm: 4.33793E-10	RHS norm: 8.63754E-14
+Point found:	1.08486E+00	2.97988E-01	
+
+New point:	Parameter: 1.08506E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.19231E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.43805E-06	RHS norm: 4.75518E-09
+	dY  norm: 4.31730E-10	RHS norm: 1.60760E-13
+Point found:	1.08506E+00	2.97987E-01	
+
+New point:	Parameter: 1.08526E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.16474E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.41235E-06	RHS norm: 4.73311E-09
+	dY  norm: 4.29689E-10	RHS norm: 1.08136E-13
+Point found:	1.08526E+00	2.97986E-01	
+
+New point:	Parameter: 1.08546E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.13725E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.38674E-06	RHS norm: 4.71110E-09
+	dY  norm: 4.27653E-10	RHS norm: 1.13687E-13
+Point found:	1.08546E+00	2.97985E-01	
+
+New point:	Parameter: 1.08565E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.10984E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.36122E-06	RHS norm: 4.68921E-09
+	dY  norm: 4.25628E-10	RHS norm: 1.13465E-13
+Point found:	1.08565E+00	2.97985E-01	
+
+New point:	Parameter: 1.08585E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.08252E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.33577E-06	RHS norm: 4.66742E-09
+	dY  norm: 4.23613E-10	RHS norm: 1.19682E-13
+Point found:	1.08585E+00	2.97984E-01	
+
+New point:	Parameter: 1.08604E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.05528E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.31041E-06	RHS norm: 4.64575E-09
+	dY  norm: 4.21609E-10	RHS norm: 1.20348E-13
+Point found:	1.08604E+00	2.97983E-01	
+
+New point:	Parameter: 1.08624E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.02813E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.28513E-06	RHS norm: 4.62418E-09
+	dY  norm: 4.19614E-10	RHS norm: 1.15463E-13
+Point found:	1.08624E+00	2.97982E-01	
+
+New point:	Parameter: 1.08644E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 8.00106E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.25993E-06	RHS norm: 4.60272E-09
+	dY  norm: 4.17631E-10	RHS norm: 1.16351E-13
+Point found:	1.08644E+00	2.97982E-01	
+
+New point:	Parameter: 1.08663E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.97407E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.23481E-06	RHS norm: 4.58136E-09
+	dY  norm: 4.15656E-10	RHS norm: 1.30340E-13
+Point found:	1.08663E+00	2.97981E-01	
+
+New point:	Parameter: 1.08682E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.94717E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.20977E-06	RHS norm: 4.56011E-09
+	dY  norm: 4.13693E-10	RHS norm: 1.20792E-13
+Point found:	1.08682E+00	2.97980E-01	
+
+New point:	Parameter: 1.08702E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.92035E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.18481E-06	RHS norm: 4.53896E-09
+	dY  norm: 4.11738E-10	RHS norm: 1.33005E-13
+Point found:	1.08702E+00	2.97980E-01	
+
+New point:	Parameter: 1.08721E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.89362E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.15994E-06	RHS norm: 4.51792E-09
+	dY  norm: 4.09794E-10	RHS norm: 1.23457E-13
+Point found:	1.08721E+00	2.97979E-01	
+
+New point:	Parameter: 1.08741E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.86696E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.13514E-06	RHS norm: 4.49699E-09
+	dY  norm: 4.07861E-10	RHS norm: 1.23457E-13
+Point found:	1.08741E+00	2.97978E-01	
+
+New point:	Parameter: 1.08760E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.84039E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.11043E-06	RHS norm: 4.47617E-09
+	dY  norm: 4.05937E-10	RHS norm: 1.22347E-13
+Point found:	1.08760E+00	2.97977E-01	
+
+New point:	Parameter: 1.08779E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.81390E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.08579E-06	RHS norm: 4.45545E-09
+	dY  norm: 4.04023E-10	RHS norm: 1.18572E-13
+Point found:	1.08779E+00	2.97977E-01	
+
+New point:	Parameter: 1.08799E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.78749E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.06124E-06	RHS norm: 4.43483E-09
+	dY  norm: 4.02118E-10	RHS norm: 9.54792E-14
+Point found:	1.08799E+00	2.97976E-01	
+
+New point:	Parameter: 1.08818E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.76117E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.03676E-06	RHS norm: 4.41434E-09
+	dY  norm: 4.00226E-10	RHS norm: 8.63754E-14
+Point found:	1.08818E+00	2.97975E-01	
+
+New point:	Parameter: 1.08837E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.73492E-05
+Computing jacobian.....Ok!
+	dY  norm: 7.01237E-06	RHS norm: 4.39392E-09
+	dY  norm: 3.98341E-10	RHS norm: 9.14824E-14
+Point found:	1.08837E+00	2.97975E-01	
+
+New point:	Parameter: 1.08856E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.70876E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.98805E-06	RHS norm: 4.37361E-09
+	dY  norm: 3.96466E-10	RHS norm: 8.68194E-14
+Point found:	1.08856E+00	2.97974E-01	
+
+New point:	Parameter: 1.08875E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.68268E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.96381E-06	RHS norm: 4.35340E-09
+	dY  norm: 3.94601E-10	RHS norm: 8.43769E-14
+Point found:	1.08875E+00	2.97973E-01	
+
+New point:	Parameter: 1.08894E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.65667E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.93965E-06	RHS norm: 4.33329E-09
+	dY  norm: 3.92744E-10	RHS norm: 8.59313E-14
+Point found:	1.08894E+00	2.97973E-01	
+
+New point:	Parameter: 1.08913E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.63075E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.91557E-06	RHS norm: 4.31327E-09
+	dY  norm: 3.90897E-10	RHS norm: 8.83738E-14
+Point found:	1.08913E+00	2.97972E-01	
+
+New point:	Parameter: 1.08932E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.60491E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.89157E-06	RHS norm: 4.29335E-09
+	dY  norm: 3.89058E-10	RHS norm: 1.13909E-13
+Point found:	1.08932E+00	2.97971E-01	
+
+New point:	Parameter: 1.08951E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.57915E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.86764E-06	RHS norm: 4.27352E-09
+	dY  norm: 3.87228E-10	RHS norm: 9.90319E-14
+Point found:	1.08951E+00	2.97970E-01	
+
+New point:	Parameter: 1.08970E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.55347E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.84380E-06	RHS norm: 4.25381E-09
+	dY  norm: 3.85410E-10	RHS norm: 1.22791E-13
+Point found:	1.08970E+00	2.97970E-01	
+
+New point:	Parameter: 1.08989E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.52787E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.82003E-06	RHS norm: 4.23417E-09
+	dY  norm: 3.83599E-10	RHS norm: 6.30607E-14
+Point found:	1.08989E+00	2.97969E-01	
+
+New point:	Parameter: 1.09008E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.50235E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.79633E-06	RHS norm: 4.21461E-09
+	dY  norm: 3.81794E-10	RHS norm: 9.81437E-14
+Point found:	1.09008E+00	2.97968E-01	
+
+New point:	Parameter: 1.09027E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.47691E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.77272E-06	RHS norm: 4.19527E-09
+	dY  norm: 3.80010E-10	RHS norm: 7.01661E-14
+Point found:	1.09027E+00	2.97968E-01	
+
+New point:	Parameter: 1.09046E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.45155E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.74918E-06	RHS norm: 4.17597E-09
+	dY  norm: 3.78231E-10	RHS norm: 6.88338E-14
+Point found:	1.09046E+00	2.97967E-01	
+
+New point:	Parameter: 1.09065E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.42627E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.72572E-06	RHS norm: 4.15673E-09
+	dY  norm: 3.76457E-10	RHS norm: 1.25011E-13
+Point found:	1.09065E+00	2.97966E-01	
+
+New point:	Parameter: 1.09084E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.40107E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.70233E-06	RHS norm: 4.13754E-09
+	dY  norm: 3.74687E-10	RHS norm: 8.77076E-14
+Point found:	1.09084E+00	2.97966E-01	
+
+New point:	Parameter: 1.09102E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.37594E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.67902E-06	RHS norm: 4.11853E-09
+	dY  norm: 3.72935E-10	RHS norm: 1.13243E-14
+Point found:	1.09102E+00	2.97965E-01	
+
+New point:	Parameter: 1.09121E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.35089E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.65579E-06	RHS norm: 4.09967E-09
+	dY  norm: 3.71196E-10	RHS norm: 1.84297E-14
+Point found:	1.09121E+00	2.97964E-01	
+
+New point:	Parameter: 1.09140E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.32592E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.63263E-06	RHS norm: 4.08079E-09
+	dY  norm: 3.69456E-10	RHS norm: 9.30367E-14
+Point found:	1.09140E+00	2.97964E-01	
+
+New point:	Parameter: 1.09158E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.30103E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.60955E-06	RHS norm: 4.06195E-09
+	dY  norm: 3.67721E-10	RHS norm: 8.28226E-14
+Point found:	1.09158E+00	2.97963E-01	
+
+New point:	Parameter: 1.09177E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.27622E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.58654E-06	RHS norm: 4.04324E-09
+	dY  norm: 3.65996E-10	RHS norm: 1.54987E-13
+Point found:	1.09177E+00	2.97962E-01	
+
+New point:	Parameter: 1.09196E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.25149E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.56361E-06	RHS norm: 4.02459E-09
+	dY  norm: 3.64278E-10	RHS norm: 2.06279E-13
+Point found:	1.09196E+00	2.97962E-01	
+
+New point:	Parameter: 1.09214E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.22683E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.54076E-06	RHS norm: 4.00613E-09
+	dY  norm: 3.62577E-10	RHS norm: 1.88072E-13
+Point found:	1.09214E+00	2.97961E-01	
+
+New point:	Parameter: 1.09233E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.20225E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.51797E-06	RHS norm: 3.98777E-09
+	dY  norm: 3.60886E-10	RHS norm: 1.40332E-13
+Point found:	1.09233E+00	2.97960E-01	
+
+New point:	Parameter: 1.09251E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.17774E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.49526E-06	RHS norm: 3.96958E-09
+	dY  norm: 3.59210E-10	RHS norm: 4.88498E-14
+Point found:	1.09251E+00	2.97960E-01	
+
+New point:	Parameter: 1.09270E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.15332E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.47263E-06	RHS norm: 3.95135E-09
+	dY  norm: 3.57532E-10	RHS norm: 5.68434E-14
+Point found:	1.09270E+00	2.97959E-01	
+
+New point:	Parameter: 1.09288E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.12896E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.45007E-06	RHS norm: 3.93316E-09
+	dY  norm: 3.55857E-10	RHS norm: 1.30562E-13
+Point found:	1.09288E+00	2.97958E-01	
+
+New point:	Parameter: 1.09306E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.10469E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.42759E-06	RHS norm: 3.91513E-09
+	dY  norm: 3.54196E-10	RHS norm: 1.33449E-13
+Point found:	1.09306E+00	2.97958E-01	
+
+New point:	Parameter: 1.09325E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.08049E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.40517E-06	RHS norm: 3.89724E-09
+	dY  norm: 3.52550E-10	RHS norm: 7.66054E-14
+Point found:	1.09325E+00	2.97957E-01	
+
+New point:	Parameter: 1.09343E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.05637E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.38283E-06	RHS norm: 3.87948E-09
+	dY  norm: 3.50915E-10	RHS norm: 2.33147E-15
+Point found:	1.09343E+00	2.97957E-01	
+
+New point:	Parameter: 1.09361E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.03232E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.36057E-06	RHS norm: 3.86163E-09
+	dY  norm: 3.49272E-10	RHS norm: 7.01661E-14
+Point found:	1.09361E+00	2.97956E-01	
+
+New point:	Parameter: 1.09380E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.00835E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.33837E-06	RHS norm: 3.84400E-09
+	dY  norm: 3.47649E-10	RHS norm: 2.86438E-14
+Point found:	1.09380E+00	2.97955E-01	
+
+New point:	Parameter: 1.09398E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.98446E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.31625E-06	RHS norm: 3.82635E-09
+	dY  norm: 3.46025E-10	RHS norm: 8.21565E-14
+Point found:	1.09398E+00	2.97955E-01	
+
+New point:	Parameter: 1.09416E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.96063E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.29421E-06	RHS norm: 3.80887E-09
+	dY  norm: 3.44417E-10	RHS norm: 7.46070E-14
+Point found:	1.09416E+00	2.97954E-01	
+
+New point:	Parameter: 1.09434E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.93689E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.27223E-06	RHS norm: 3.79145E-09
+	dY  norm: 3.42815E-10	RHS norm: 8.45990E-14
+Point found:	1.09434E+00	2.97953E-01	
+
+New point:	Parameter: 1.09453E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.91322E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.25033E-06	RHS norm: 3.77410E-09
+	dY  norm: 3.41218E-10	RHS norm: 8.70415E-14
+Point found:	1.09453E+00	2.97953E-01	
+
+New point:	Parameter: 1.09471E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.88962E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.22850E-06	RHS norm: 3.75687E-09
+	dY  norm: 3.39633E-10	RHS norm: 8.08242E-14
+Point found:	1.09471E+00	2.97952E-01	
+
+New point:	Parameter: 1.09489E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.86610E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.20674E-06	RHS norm: 3.73971E-09
+	dY  norm: 3.38056E-10	RHS norm: 8.21565E-14
+Point found:	1.09489E+00	2.97952E-01	
+
+New point:	Parameter: 1.09507E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.84265E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.18505E-06	RHS norm: 3.72263E-09
+	dY  norm: 3.36485E-10	RHS norm: 8.79297E-14
+Point found:	1.09507E+00	2.97951E-01	
+
+New point:	Parameter: 1.09525E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.81928E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.16343E-06	RHS norm: 3.70565E-09
+	dY  norm: 3.34923E-10	RHS norm: 9.99201E-14
+Point found:	1.09525E+00	2.97950E-01	
+
+New point:	Parameter: 1.09543E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.79597E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.14188E-06	RHS norm: 3.68873E-09
+	dY  norm: 3.33368E-10	RHS norm: 8.63754E-14
+Point found:	1.09543E+00	2.97950E-01	
+
+New point:	Parameter: 1.09561E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.77275E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.12041E-06	RHS norm: 3.67191E-09
+	dY  norm: 3.31821E-10	RHS norm: 8.45990E-14
+Point found:	1.09561E+00	2.97949E-01	
+
+New point:	Parameter: 1.09579E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.74959E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.09900E-06	RHS norm: 3.65518E-09
+	dY  norm: 3.30284E-10	RHS norm: 8.14904E-14
+Point found:	1.09579E+00	2.97948E-01	
+
+New point:	Parameter: 1.09597E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.72651E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.07767E-06	RHS norm: 3.63852E-09
+	dY  norm: 3.28752E-10	RHS norm: 8.74856E-14
+Point found:	1.09597E+00	2.97948E-01	
+
+New point:	Parameter: 1.09615E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.70350E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.05640E-06	RHS norm: 3.62194E-09
+	dY  norm: 3.27229E-10	RHS norm: 9.37028E-14
+Point found:	1.09615E+00	2.97947E-01	
+
+New point:	Parameter: 1.09632E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.68057E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.03521E-06	RHS norm: 3.60544E-09
+	dY  norm: 3.25712E-10	RHS norm: 1.09690E-13
+Point found:	1.09632E+00	2.97947E-01	
+
+New point:	Parameter: 1.09650E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.65771E-05
+Computing jacobian.....Ok!
+	dY  norm: 6.01408E-06	RHS norm: 3.58902E-09
+	dY  norm: 3.24204E-10	RHS norm: 9.05942E-14
+Point found:	1.09650E+00	2.97946E-01	
+
+New point:	Parameter: 1.09668E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.63492E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.99303E-06	RHS norm: 3.57269E-09
+	dY  norm: 3.22704E-10	RHS norm: 1.03917E-13
+Point found:	1.09668E+00	2.97945E-01	
+
+New point:	Parameter: 1.09686E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.61220E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.97204E-06	RHS norm: 3.55644E-09
+	dY  norm: 3.21211E-10	RHS norm: 1.44329E-14
+Point found:	1.09686E+00	2.97945E-01	
+
+New point:	Parameter: 1.09703E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.58955E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.95113E-06	RHS norm: 3.54036E-09
+	dY  norm: 3.19733E-10	RHS norm: 2.10942E-14
+Point found:	1.09703E+00	2.97944E-01	
+
+New point:	Parameter: 1.09721E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.56698E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.93028E-06	RHS norm: 3.52427E-09
+	dY  norm: 3.18256E-10	RHS norm: 8.88178E-15
+Point found:	1.09721E+00	2.97944E-01	
+
+New point:	Parameter: 1.09739E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.54447E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.90950E-06	RHS norm: 3.50826E-09
+	dY  norm: 3.16786E-10	RHS norm: 2.77556E-15
+Point found:	1.09739E+00	2.97943E-01	
+
+New point:	Parameter: 1.09756E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.52204E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.88879E-06	RHS norm: 3.49233E-09
+	dY  norm: 3.15323E-10	RHS norm: 8.21565E-15
+Point found:	1.09756E+00	2.97942E-01	
+
+New point:	Parameter: 1.09774E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.49968E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.86815E-06	RHS norm: 3.47646E-09
+	dY  norm: 3.13866E-10	RHS norm: 3.06422E-14
+Point found:	1.09774E+00	2.97942E-01	
+
+New point:	Parameter: 1.09792E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.47739E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.84757E-06	RHS norm: 3.46066E-09
+	dY  norm: 3.12415E-10	RHS norm: 5.04041E-14
+Point found:	1.09792E+00	2.97941E-01	
+
+New point:	Parameter: 1.09809E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.45517E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.82706E-06	RHS norm: 3.44493E-09
+	dY  norm: 3.10972E-10	RHS norm: 6.83897E-14
+Point found:	1.09809E+00	2.97941E-01	
+
+New point:	Parameter: 1.09827E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.43302E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.80663E-06	RHS norm: 3.42930E-09
+	dY  norm: 3.09536E-10	RHS norm: 7.63833E-14
+Point found:	1.09827E+00	2.97940E-01	
+
+New point:	Parameter: 1.09844E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.41094E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.78626E-06	RHS norm: 3.41374E-09
+	dY  norm: 3.08109E-10	RHS norm: 7.17204E-14
+Point found:	1.09844E+00	2.97940E-01	
+
+New point:	Parameter: 1.09862E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.38894E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.76595E-06	RHS norm: 3.39828E-09
+	dY  norm: 3.06690E-10	RHS norm: 6.66134E-14
+Point found:	1.09862E+00	2.97939E-01	
+
+New point:	Parameter: 1.09879E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.36700E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.74571E-06	RHS norm: 3.38285E-09
+	dY  norm: 3.05274E-10	RHS norm: 5.28466E-14
+Point found:	1.09879E+00	2.97938E-01	
+
+New point:	Parameter: 1.09896E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.34513E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.72555E-06	RHS norm: 3.36762E-09
+	dY  norm: 3.03877E-10	RHS norm: 2.06501E-14
+Point found:	1.09896E+00	2.97938E-01	
+
+New point:	Parameter: 1.09914E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.32333E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.70544E-06	RHS norm: 3.35245E-09
+	dY  norm: 3.02485E-10	RHS norm: 3.78586E-14
+Point found:	1.09914E+00	2.97937E-01	
+
+New point:	Parameter: 1.09931E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.30160E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.68541E-06	RHS norm: 3.33728E-09
+	dY  norm: 3.01093E-10	RHS norm: 4.36318E-14
+Point found:	1.09931E+00	2.97937E-01	
+
+New point:	Parameter: 1.09948E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.27994E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.66544E-06	RHS norm: 3.32217E-09
+	dY  norm: 2.99708E-10	RHS norm: 4.64073E-14
+Point found:	1.09948E+00	2.97936E-01	
+
+New point:	Parameter: 1.09966E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.25835E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.64553E-06	RHS norm: 3.30706E-09
+	dY  norm: 2.98322E-10	RHS norm: 6.37268E-14
+Point found:	1.09966E+00	2.97936E-01	
+
+New point:	Parameter: 1.09983E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.23683E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.62569E-06	RHS norm: 3.29209E-09
+	dY  norm: 2.96949E-10	RHS norm: 9.76996E-15
+Point found:	1.09983E+00	2.97935E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 6.21537E-05
+Computing jacobian.....Ok!
+	dY  norm: 5.60592E-06	RHS norm: 3.27726E-09
+	dY  norm: 2.95590E-10	RHS norm: 2.93099E-14
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 1.78085E-05
+Computing jacobian.....Ok!
+	dY  norm: 1.60738E-06	RHS norm: 6.75993E-10
+	dY  norm: 6.10158E-11	RHS norm: 9.76996E-15
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 2.82944E-07
+Computing jacobian.....Ok!
+	dY  norm: 2.55408E-08	RHS norm: 9.09006E-12
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 5.63414E-09
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.41501E-09
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.69231E-09
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.73278E-09
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.73863E-09
+Point found:	1.10000E+00	2.97934E-01	
+
+New point:	Parameter: 1.10000E+00	Dimension:    2
+	dY  norm: 0.00000E+00	RHS norm: 7.73948E-09
+Point found:	1.10000E+00	2.97934E-01	

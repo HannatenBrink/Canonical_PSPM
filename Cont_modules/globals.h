@@ -310,7 +310,7 @@ int			Jacobian(const int pntdim, double *pnt, const int fncdim, double *jac,
 				 int (*fnc)(double *, double *), int method);
 int			CurveFuncDeriv(const int,  double *, double *, const int, double *, int (*)(double *, double *), int);
 double			LPcondition(const int, double *, int (*)(double *, double *), int);
-int             Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad);
+int             Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad, double *minbounds, double *maxbounds);
 double			SelectionGradient(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index);
 double			SelectionGradient2(const int pntdim, double *y, int (*fnc)(double *, double *), int parindex, int R0index);
 bool            Noevocheck(double *selgrad);
@@ -489,8 +489,9 @@ static void Usage(char *progname)
 
 {
 #if (CVFFILE)
-  fprintf(stderr, "\n\nUsage: %s [-v <0, 1, 2>] <Name of CVF, ISF or ESF file> %s %s\n\n",
-      progname, PROBLEMVARS, "<step> [<min. step>] <max. step> <min. par.> <max. par.>");
+  //fprintf(stderr, "\n\nUsage: %s [-v <0, 1, 2>] <Name of CVF, ISF or ESF file> %s %s\n\n",
+    //  progname, PROBLEMVARS, "<step> [<min. step>] <max. step> <min. par.> <max. par.>");
+    fprintf(stderr, "\n\nUsage: %s [-v <0, 1, 2>] <Name of CVF, ISF or ESF file> %s. <min evopars> <max evopars> (both %d dim)\n", progname, PROBLEMVARS, EVODIM);
 #else
   fprintf(stderr, "\n\nUsage: %s [-v <0, 1, 2>] %s %s\n\n",
       progname, PROBLEMVARS, "<step> [<min. step>] <max. step> <min. par.> <max. par.>");
@@ -511,13 +512,15 @@ int main(int argc, char **argv)
     int			cycles, last = 1, retval, setpoint, fp;
     char			fname[MAX_STR_LEN];
     double		Output[MAX_OUTPUTDIM];
-    double		minbound, maxbound;
+    //double		minbound, maxbound;
     double		maxparstep, Minparstep;
     int			my_argc;
     char		**argpnt1 = NULL, **argpnt2 = NULL, **my_argv = NULL;
     double      h;
     int         evopar[EVODIM];
     double      selgrad[EVODIM];
+    double      minbounds[EVODIM];
+    double      maxbounds[EVODIM];
 
     
     
@@ -589,7 +592,7 @@ int main(int argc, char **argv)
 #if (CVFFILE)
     char			*ch;
     
-    nargs = BASE_PNTDIM+6;
+    nargs = BASE_PNTDIM+2+(EVODIM*2);
     if ((my_argc != nargs) && (my_argc != (nargs+1))) Usage(argv[0]);
     (void)strcpy(runname, my_argv[1]);
     
@@ -607,23 +610,15 @@ int main(int argc, char **argv)
     memset((void *)point,  0, MAX_PNTDIM*sizeof(double)); //copieert allemaal nullen naar point
     for (i=0, j=CVFFILE+1; i<BASE_PNTDIM; i++, j++) point[i] = atof(my_argv[j]); //init point
     
-    parstep    = atof(my_argv[j++]);
-    if (my_argc == nargs)
+    for (i=0; i<EVODIM;i++)
     {
-        Maxparstep = atof(my_argv[j++]);
-        if (Maxparstep > 0.0)
-            Minparstep = min(MINPARSTEPVAL, MILLI*Maxparstep);
-        else
-            Minparstep = MINPARSTEPVAL;
+        minbounds[i] =atof(my_argv[j++]);
     }
-    else if (my_argc == (nargs+1))
+
+    for (i=0; i<EVODIM;i++)
     {
-        Minparstep = atof(my_argv[j++]);
-        Maxparstep = atof(my_argv[j++]);
+        maxbounds[i] =atof(my_argv[j++]);
     }
-    
-    minbound   = atof(my_argv[j++]);
-    maxbound   = atof(my_argv[j++]);
     
 #if (POPULATION_NR)
     SetCohortSize(COHORT_SIZE);
@@ -718,17 +713,14 @@ int main(int argc, char **argv)
                 ReportMsg(1, "Point found:\t");
                 for (i=0; i<BASE_PNTDIM; i++)
                 ReportMsg(1, "%10.5E\t", point[i]*pnt_scale[i]);
+                ReportMsg(1,"\n");
      }
         
-        
-        
-        
+     
         for (i=0; (pntnr > 20) && (i<pntdim); i++)
         {
             
-
-            
-            CurveEnd = CurveEnd || ((point[0]*pnt_scale[0]) < minbound) || ((point[0]*pnt_scale[0]) > maxbound) || Noevocheck(selgrad);
+            CurveEnd = CurveEnd ||  Noevocheck(selgrad);
 #if (!ALLOWNEGATIVE)
             CurveEnd = CurveEnd || (point[i] < -DYTOL);
 #endif
@@ -751,7 +743,7 @@ int main(int argc, char **argv)
         
         
       
-        Evogradient(pntdim, EVODIM, point, Equation, evopar, selgrad); //Calculate selectiongradient
+        Evogradient(pntdim, EVODIM, point, Equation, evopar, selgrad, minbounds, maxbounds); //Calculate selectiongradient
         
        point[0] = point[0]+DELTAS*selgrad[0];  //update bifpar
         
@@ -888,7 +880,7 @@ int main(int argc, char **argv)
   // Map all command-line variables into the argument vector
   memset((void *)point,  0, MAX_PNTDIM*sizeof(double));
   for (i=0, j=CVFFILE+1; i<BASE_PNTDIM; i++, j++) point[i] = atof(my_argv[j]);
-
+    
   parstep    = atof(my_argv[j++]);
   if (my_argc == nargs)
     {
