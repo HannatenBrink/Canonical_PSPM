@@ -310,10 +310,10 @@ int			Jacobian(const int pntdim, double *pnt, const int fncdim, double *jac,
 				 int (*fnc)(double *, double *), int method);
 int			CurveFuncDeriv(const int,  double *, double *, const int, double *, int (*)(double *, double *), int);
 double			LPcondition(const int, double *, int (*)(double *, double *), int);
-int             Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *k1);
+int             Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad);
 double			SelectionGradient(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index);
 double			SelectionGradient2(const int pntdim, double *y, int (*fnc)(double *, double *), int parindex, int R0index);
-bool            Noevocheck(double *k1);
+bool            Noevocheck(double *selgrad);
 
 
 /*
@@ -517,7 +517,7 @@ int main(int argc, char **argv)
     char		**argpnt1 = NULL, **argpnt2 = NULL, **my_argv = NULL;
     double      h;
     int         evopar[EVODIM];
-    double      k1[EVODIM];
+    double      selgrad[EVODIM];
 
     
     
@@ -728,7 +728,7 @@ int main(int argc, char **argv)
             
 
             
-            CurveEnd = CurveEnd || ((point[0]*pnt_scale[0]) < minbound) || ((point[0]*pnt_scale[0]) > maxbound) || Noevocheck(k1);
+            CurveEnd = CurveEnd || ((point[0]*pnt_scale[0]) < minbound) || ((point[0]*pnt_scale[0]) > maxbound) || Noevocheck(selgrad);
 #if (!ALLOWNEGATIVE)
             CurveEnd = CurveEnd || (point[i] < -DYTOL);
 #endif
@@ -751,13 +751,13 @@ int main(int argc, char **argv)
         
         
       
-        Evogradient(pntdim, EVODIM, point, Equation, evopar, k1); //Calculate selectiongradient
+        Evogradient(pntdim, EVODIM, point, Equation, evopar, selgrad); //Calculate selectiongradient
         
-       point[0] = point[0]+DELTAS*k1[0];  //update bifpar
+       point[0] = point[0]+DELTAS*selgrad[0];  //update bifpar
         
         for (i=1;i<EVODIM;i++)
         {
-            parameter[evopar[i]] = k1[i]*DELTAS+parameter[evopar[i]]; //update all other parameters
+            parameter[evopar[i]] = selgrad[i]*DELTAS+parameter[evopar[i]]; //update all other parameters
         }
 
         if (errfile) fflush(errfile);
