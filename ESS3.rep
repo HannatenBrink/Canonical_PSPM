@@ -1,0 +1,36 @@
+*******************************************************************************
+
+  PROGRAM, RUN AND ARGUMENTS
+    Program   : ./EvoSym_can_trc
+    Run       : ESS3
+    Arguments :  ESS3 1 0.29 0 0 1.1 1.5
+
+  MODEL SPECIFIC NOTES
+    Consumer output per volume of: 1 L
+
+  USED VALUES FOR CONTROL VARIABLES
+    Tolerance value, determining identity with zero                    :  1E-05     
+
+  USED VALUES OF TOLERANCES
+    Minimum allowable number of individuals in cohort                  :  1E-09  
+
+  USED VALUES OF PARAMETERS
+     0: Resource re-growth rate (1/d)                          DELTA          :  0.1       
+     1: Carrying capacity resource 1 (scaled)                  RMAX           :  10        
+     2: Size at birth                                          XB             :  0.1       
+     3: Size at maturation                                     XJ             :  1         
+     4: Maximum size                                           XM             :  10        
+     5: Attack rate scaling constant                           M              :  1         
+     6: Maintenance rate scaling constant                      T              :  0.1       
+     7: Maintenance rate scaling constant                      MH             :  0.03333   
+     8: Conversion efficiency                                  SIGMA          :  0.5       
+     9: Consumer background mortality (1/d)                    MUC            :  0.015     
+    10: Juvenile consumer additional mortality (1/d)           MUJ            :  0         
+    11: Adult consumer additional mortality (1/d)              MUA            :  0         
+    12: Scaling Exponent Ingestion                             Q              :  1         
+    13: Scaling Exponent Maintenance                           P              :  1         
+    Index of (first) bifurcation parameter                                    :  12        
+    Step size in bifurcation parameter/Index of second bifurcation parameter  :  13        
+    Index of third bifurcation parameter                                      :  9         
+    Index of fourth bifurcation parameter                                      :  9         
+*******************************************************************************

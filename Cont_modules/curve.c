@@ -1003,7 +1003,7 @@ double		LPcondition(const int pntdim, double *y, int (*fnc)(double *, double *),
 
 /*==============================================================================*/
 
-int Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad)
+int Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad, double *minbounds, double *maxbounds)
 {
    
     double y[pntdim];
@@ -1013,10 +1013,20 @@ int Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(doub
     
     COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar vec y
     selec[0] =  SelectionGradient(BASE_PNTDIM, y, Equation, 0, 0);
+    if ((y[0] <=minbounds[0]&&selec[0]<0) || (y[0]>maxbounds[0]&&selec[0]>0))
+    {
+        selec[0] = 0;
+    }
     for (i=1;i<evodim;i++)
     {
         selec[i] =  SelectionGradient2(BASE_PNTDIM, y, Equation, evopars[i], 0);
+        if ((parameter[evopars[i]] <= minbounds[i] && selec[i]<0) || (parameter[evopars[i]] >= maxbounds[i] && selec[i]>0))
+        {
+            selec[i] = 0;
+        }
     }
+    
+    
     COPY(evodim, selec, 1, selgrad, 1);
     return SUCCES;
 }
@@ -1027,10 +1037,10 @@ bool Noevocheck(double *selgrad)
 {
     for (int i=0; i < EVODIM; i++)
     {
-        if (selgrad[i] < CANTOL)
-            return true;
+        if (selgrad[i] > CANTOL)
+            return false;
     }
-    return false;
+    return true;
 }
 /*==============================================================================*/
 
