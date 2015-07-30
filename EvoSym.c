@@ -84,7 +84,7 @@ void		UserInit(int argc, char *argv[])
     
 #if (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
     parameter[Bifpartwo] = atof(argv[BASE_PNTDIM]);
-    parameter[Bifparthree] = atof(argv[BASE_PNTDIM+1]);
+    //parameter[Bifparthree] = atof(argv[BASE_PNTDIM+1]);
 #endif
     
     ReportNote("Consumer output per volume of: %G L", VOLUME);
@@ -207,8 +207,10 @@ int		Equation(double *argument, double *result)
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
     parameter[Bifparone]    = argument[index]*pnt_scale[index]; index++;
     Requi                   = argument[index]*pnt_scale[index]; index++;
+    if (NOR0YY == 1) {
     parameter[Bifpartwo]    = argument[index]*pnt_scale[index]; index++;
-    parameter[Bifparthree]  = argument[index]*pnt_scale[index]; index++;
+    }
+    //parameter[Bifparthree]  = argument[index]*pnt_scale[index]; index++;
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_CAN)
     parameter[Bifparone] = argument[index]*pnt_scale[index]; index++;
     Requi                = argument[index]*pnt_scale[index]; index++;
@@ -297,8 +299,12 @@ int		Equation(double *argument, double *result)
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
     result[0]  = CUMREPRO - 1.0;
     // The last index in the following call indicates the index of the equation R0-1= 0 in the result[] vector
-    result[1]  = SelectionGradient(BASE_PNTDIM, argument, Equation, 2, 0);
-    result[2]  = SelectionGradient(BASE_PNTDIM, argument, Equation, 3, 0);
+    if (NOR0YY == 1)
+    {
+    result[1]  = SelectionGradient(BASE_PNTDIM, argument, Equation, 0, 0);
+    }
+   
+    
 #endif
     
     return SUCCES;
@@ -334,76 +340,18 @@ int		DefineOutput(double *argument, double *output)
     // occurs when continuing an LP for this system. In all cases the 4
     // values are written to the output file
 
-#if (SYSTEM_TYPE == SYSTEM_EVOSYM_CAN)
     output[outnr++] = parameter[Bifparone];
-    output[outnr++] = parameter[Bifpartwo];
-    output[outnr++] = parameter[Bifparthree];
-    output[outnr++] = Requi;
-    output[outnr++] = Bequi;
     output[outnr++] = SelectionGradient(BASE_PNTDIM, argument, Equation, 0, 0);
-    output[outnr++] = SelectionGradient2(BASE_PNTDIM, argument, Equation, Bifpartwo, 0);
-    output[outnr++] = SelectionGradient2(BASE_PNTDIM, argument, Equation, Bifparthree, 0);
-#endif
-
-  /*  output[outnr++] = parameter[Bifparone];
-    output[outnr++] = Requi;
-    output[outnr++] = Bequi;
-    
-    
     output[outnr++] = parameter[Bifpartwo];
-    output[outnr++] = parameter[Bifparthree];
-    
-    // Stage-specific biomass
-//    output[outnr++] = SavedState[JUVENILE][5];					// Column  5
-//    output[outnr++] = SavedState[ADULT][5];
-//    output[outnr++] = (SavedState[JUVENILE][5]+SavedState[ADULT][5]);
-    
- Stage-specific densities
-    output[outnr++] = SavedState[JUVENILE][4];					// Column  8
-    output[outnr++] = SavedState[ADULT][4];
-    output[outnr++] = (SavedState[JUVENILE][4]+SavedState[ADULT][4]);
-
-    // Stage-specific biomass increase through growth
-    output[outnr++] = SavedState[JUVENILE][6];					// Column  11
-    output[outnr++] = SavedState[ADULT][6];
-    output[outnr++] = (SavedState[JUVENILE][6]+SavedState[ADULT][6]);
-    
-    // Stage-specific biomass increase through reproduction
-    output[outnr++] = SavedState[JUVENILE][7];					// Column  14
-    output[outnr++] = SavedState[ADULT][7];
-    output[outnr++] = (SavedState[JUVENILE][7]+SavedState[ADULT][7]);
-    
-    // Stage-specific biomass loss through mortality
-    output[outnr++] = SavedState[JUVENILE][8];					// Column  17
-    output[outnr++] = SavedState[ADULT][8];
-    output[outnr++] = (SavedState[JUVENILE][8]+SavedState[ADULT][8]);
-
-    // Stage-specific net-biomass balance						// Column  20
-//    output[outnr++] = ( SavedState[JUVENILE][6] + SavedState[JUVENILE][7] - SavedState[JUVENILE][8]);
-//    output[outnr++] = ( SavedState[ADULT][6] + SavedState[ADULT][7] - SavedState[ADULT][8]);
-//
-//    // Total population birth and maturation rate (in biomass)
-//    output[outnr++] = Bequi*XB;							// Column  22
-//    output[outnr++] = Bequi*SavedState[JUVENILE][1]*XJ;
-//
-//    // Final body length
-//    output[outnr++] = SavedState[ADULT][0];
-//
-
-    
-#if ((SYSTEM_TYPE == SYSTEM_EVOSYM_EQ) || (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS))
-    double testarg[2];
-    testarg[0] = 1.0;
-    testarg[1] = Requi;
-    // The last index in the following call indicates the index of the equation R0-1= 0 in the result[] vector
-    output[outnr++] = SelectionGradient(BASE_PNTDIM, argument, Equation, 0, 0);
-    output[outnr++] = SelectionGradient2(BASE_PNTDIM, argument, Equation, 12, 0);
     output[outnr++] = SelectionGradient2(BASE_PNTDIM, argument, Equation, 13, 0);
-#else
-    output[outnr++] = MISSING_VALUE;
+    output[outnr++] = Requi;
+    output[outnr++] = Bequi;
+#if (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
+    output[outnr++] = R0yy(BASE_PNTDIM,argument,Equation,0,0);
+    output[outnr++] = R0xx(BASE_PNTDIM-1,argument,Equation,0,0);
 #endif
 
-*/
+ 
     
     
     return outnr;

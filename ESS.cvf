@@ -1,0 +1,33 @@
+"Fixed step size or integration accuracy when adaptive"                       1.0E-8
+"Cohort cycle time interval"                                                  0.5
+"Tolerance value, determining identity with zero"                             1.0E-5
+"Maximum integration time"                                                 4000.0
+"Output time interval"                                                        1.0
+"Complete state output interval, 0 for none"                                 10.0
+"Minimum allowable number of individuals in cohort"                           1.0E-9
+"Relative tolerances for i-state variable #0"                                 0.0 0.0
+"Relative tolerances for i-state variable #1"                                 0.0 0.0
+"Absolute tolerances for i-state variable #0"                                 0.0 0.0
+"Absolute tolerances for i-state variable #1"                                 0.0 0.0
+" 0: Resource re-growth rate (1/d)                          DELTA        "    0.1
+" 1: Carrying capacity resource 1 (scaled)                  RMAX         "    10.0
+" 2: Size at birth                                          XB           "    0.1
+" 3: Size at maturation                                     XJ           "    1.0
+" 4: Maximum size                                           XM           "    10.0
+" 5: Attack rate scaling constant                           M            "    1.0
+" 6: Maintenance rate scaling constant                      T            "    0.1
+" 7: Maintenance rate scaling constant                      MH           "    0.03333333
+" 8: Conversion efficiency                                  SIGMA        "    0.5
+" 9: Consumer background mortality (1/d)                    MUC          "    0.015
+"10: Juvenile consumer additional mortality (1/d)           MUJ          "    0.0
+"11: Adult consumer additional mortality (1/d)              MUA          "    0.0
+"12: Scaling Exponent Ingestion                             Q            "    1.0
+"13: Scaling Exponent Maintenance                           P            "    1.0
+"Index of (first) bifurcation parameter                                  "    12
+"Step size in bifurcation parameter/Index of second bifurcation parameter"    13
+"Index of third bifurcation parameter                                    "    9
+"Index of fourth bifurcation parameter                                    "    9
+"Final value of the bifurcation parameter                                "    100
+"Linear (0) or logarithmic (1) parameter change                          "    0
+"Period of output generation in bifurcation                              "    0.0
+"Period of state output in bifurcation                                   "    0.0

@@ -298,7 +298,7 @@ int	FindPoint(const int pntdim, double *guess, double *tanvec,
   first = 0;
 
   COPY(pntdim, guess, 1, y, 1); //copieert guess naar vec y
-  memset((void *)dy,  0, pntdim*sizeof(double));
+  memset((void *)dy,  0, pntdim*sizeof(double));  //set dy op 0
 
   ReportMsg(2, "\nNew point:\tParameter: %10.5E\t", y[0]);
   ReportMsg(2, "Dimension: %4d\n", pntdim);
@@ -307,8 +307,8 @@ int	FindPoint(const int pntdim, double *guess, double *tanvec,
   for(iter=0; iter<max_iter; iter++)
     {
       // Compute norm of Y and of dY
-      ynorm  = NRM2(pntdim, y, 1);
-      dynorm = NRM2(pntdim, dy, 1);
+      ynorm  = NRM2(pntdim, y, 1);  //returns Euclidian norm of vec y (guess) (pntdim=dimensie vector, y=vector, 1=increments between elements of y (dus 1 is alles)
+      dynorm = NRM2(pntdim, dy, 1); //returns Euclidian norm of vec dy
       dynorm = dynorm/(1.0+dynorm);
       if (!issane(ynorm) || !issane(dynorm))
 	{
@@ -1012,8 +1012,10 @@ int Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(doub
     int i;
     
     COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar vec y
-    selec[0] =  SelectionGradient(BASE_PNTDIM, y, Equation, 0, 0);
-    if ((y[0] <=minbounds[0]&&selec[0]<0) || (y[0]>maxbounds[0]&&selec[0]>0))
+    selec[0] =  SelectionGradient(BASE_PNTDIM, y, Equation, 0, 0);   //berekend selectiegradient
+    //ReportMsg(2, "selec[0] = %f\t", selec[0]);
+    //ReportMsg(2, "Maxbounds? %f > %f\t", y[0]*pnt_scale[0],maxbounds[0]);
+    if ((y[0]*pnt_scale[0] <=minbounds[0]&&selec[0]<0) || (y[0]*pnt_scale[0]>=maxbounds[0]&&selec[0]>0)) //bekijkt of niet aan min/max zit
     {
         selec[0] = 0;
     }
@@ -1033,11 +1035,12 @@ int Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(doub
 
 
 /*==============================================================================*/
-bool Noevocheck(double *selgrad)
+bool Noevocheck(double *selgrad) //kijkt of alle selectiegradienten nul zijn
 {
-    for (int i=0; i < EVODIM; i++)
+int i;    
+	for (i=0; i < EVODIM; i++)
     {
-        if (selgrad[i] > CANTOL)
+        if (fabs(selgrad[i]) > CANTOL)
             return false;
     }
     return true;
@@ -1083,7 +1086,7 @@ double		SelectionGradient(const int pntdim, double *pnt, int (*fnc)(double *, do
   COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar y vec
   old  = y[varindex];   ///Waarde van de parameter waarna de R0 wordt gedif
   ydif = max(fabs(JACOBIAN_STEP*y[varindex]), MIN_STEP);  ///stap waarmee de parameeter wordt veranderd
-
+  ReportMsg(2, "ydif = %f\n", ydif);
   y[varindex] = old + ydif;   ///Nieuwe parameterwaarde, y hoger dan oude
   if ((*fnc)(y, rhs) == FAILURE)  ///Hier wordt het systeem opnieuw ge-evalueerd, dus met de nieuwe parameter en met oude environment
     {
@@ -1091,7 +1094,7 @@ double		SelectionGradient(const int pntdim, double *pnt, int (*fnc)(double *, do
       return FAILURE;
     }
   dR0dp = rhs[R0index];   ///dit is de nieuwe R0 na evaluatie van de nieuwe y (R0+)
-
+  
   y[varindex]  = old - ydif;  //Nieuwe parameterwaarde, y lager dan oude
   if ((*fnc)(y, rhs) == FAILURE)
     {
@@ -1100,18 +1103,87 @@ double		SelectionGradient(const int pntdim, double *pnt, int (*fnc)(double *, do
     }
   dR0dp -= rhs[R0index];  /// R0+ - R0-
   dR0dp /= 2.0*ydif;
-
   y[varindex] = old;
   // Additional call to reset global variables
   (*fnc)(y, rhs);
 
   SGImmediateReturn = 0;
 
+
   return dR0dp;					// Return the derivative w.r.t. the scaled or unscaled parameter?
 //  return (dR0dp/pnt_scale[0]);			// par=scaledpar*scale => dR0/dscaledpar = dR0/d(par/scale) = scale*DR0/dpar
 }
 
+/*============================*/
+double		SelectionGradientb(const int pntdim, double *pnt, int (*fnc)(double *, double *), int varindex, int R0index, double minbound, double maxbound)
 
+  /*
+   * SelectionGradientb - Routine computes the factor determining the location of an ESS, This function is the same as normal selection gradient but will also check if point has reached boundary and in that case return 0. This is useful if you want to continue an ESS and the ESS is at the boundary.
+
+   * 		         the component of the Jacobian that represents the derivative w.r.t.
+   * 		         to the parameter, which should always has index 0 in the vector of
+   * 		         the solution point.
+   *
+   * Arguments - pntdim    : The dimension of the argument vector 'y'. Notice that this
+   * 			     equals 2 (for the parameters) plus the dimension of the vector of
+   * 			     state variables.
+   *		 y	   : Pointer to an array containing as first element the value
+   *		 	     of the parameter p and as subsequent elements the values of
+   *		 	     the state variables y. The last element is assumed to be the
+   *		 	     second parameter in the LP continuation
+   *		 fnc	   : Pointer to function specifying the system of
+   *			     equations. The function must have a (double)
+   *			     pointer as first argument, containing the point
+   *			     in which to evaluate the system and a (double)
+   *			     pointer as second argument, containing the
+   *			     results after evaluation of the equations.
+   *        varindex Index of y waar parameter staat.
+   *		R0index	   : Index of the equilibrium condition (R0-1 = 0) in the result vector
+   *			     returned by (*fnc)().
+   */
+{
+  static int		SGImmediateReturn = 0;
+  double		y[pntdim], old, ydif;
+  double		rhs[pntdim-1], dR0dp;
+
+	
+  // Prevent recurrence
+  if (SGImmediateReturn) return 0.0;
+  SGImmediateReturn = 1;
+
+  // Initialize
+  COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar y vec
+  old  = y[varindex];   ///Waarde van de parameter waarna de R0 wordt gedif
+  ydif = max(fabs(JACOBIAN_STEP*y[varindex]), MIN_STEP);  ///stap waarmee de parameeter wordt veranderd
+  ReportMsg(2, "ydif = %f\n", ydif);
+  y[varindex] = old + ydif;   ///Nieuwe parameterwaarde, y hoger dan oude
+  if ((*fnc)(y, rhs) == FAILURE)  ///Hier wordt het systeem opnieuw ge-evalueerd, dus met de nieuwe parameter en met oude environment
+    {
+      ErrorMsg(__FILE__, __LINE__, "Right-hand side computation failed");
+      return FAILURE;
+    }
+  dR0dp = rhs[R0index];   ///dit is de nieuwe R0 na evaluatie van de nieuwe y (R0+)
+  y[varindex]  = old - ydif;  //Nieuwe parameterwaarde, y lager dan oude
+  if ((*fnc)(y, rhs) == FAILURE)
+    {
+      ErrorMsg(__FILE__, __LINE__, "Right-hand side computation failed");
+      return FAILURE;
+    }
+  dR0dp -= rhs[R0index];  /// R0+ - R0-
+  dR0dp /= 2.0*ydif;
+  y[varindex] = old;
+  // Additional call to reset global variables
+  (*fnc)(y, rhs);
+   
+  if (((y[varindex]*pnt_scale[0] <=minbound)&&(dR0dp<0)) || ((y[varindex]*pnt_scale[0]>=maxbound)&&(dR0dp>0))) //bekijkt of niet aan min/max zit
+    {
+        dR0dp = 0;
+    } 
+  SGImmediateReturn = 0;
+
+  return dR0dp;					// Return the derivative w.r.t. the scaled or unscaled parameter?
+//  return (dR0dp/pnt_scale[0]);			// par=scaledpar*scale => dR0/dscaledpar = dR0/d(par/scale) = scale*DR0/dpar
+}
 
 /*============================*/
  
@@ -1121,15 +1193,15 @@ double		SelectionGradient2(const int pntdim, double *pnt, int (*fnc)(double *, d
  * SelectionGradient - Routine computes the factor determining the location of an ESS, i.e.
  * 		         the component of the Jacobian that represents the derivative w.r.t.
  * 		         to the parameter, which should always has index 0 in the vector of
- * 		         the solution point.
+ * 		         the solution point. For parameters that are not the bifurcation parameters.
  *
  * Arguments - pntdim    : The dimension of the argument vector 'y'. Notice that this
- * 			     equals 2 (for the parameters) plus the dimension of the vector of
+ * 			     equals # of parameters plus the dimension of the vector of
  * 			     state variables.
  *		 y	   : Pointer to an array containing as first element the value
  *		 	     of the parameter p and as subsequent elements the values of
  *		 	     the state variables y. The last element is assumed to be the
- *		 	     second parameter in the LP continuation
+ *		 	     second parameter in the LP continuation or second parameter
  *		 fnc	   : Pointer to function specifying the system of
  *			     equations. The function must have a (double)
  *			     pointer as first argument, containing the point
@@ -1174,6 +1246,9 @@ double		SelectionGradient2(const int pntdim, double *pnt, int (*fnc)(double *, d
     // Additional call to reset global variables
     (*fnc)(y, rhs);
  
+ 
+ 
+ 
     SGImmediateReturn = 0;
  
     
@@ -1181,6 +1256,147 @@ double		SelectionGradient2(const int pntdim, double *pnt, int (*fnc)(double *, d
     //  return (dR0dp/pnt_scale[0]);			// par=scaledpar*scale => dR0/dscaledpar = dR0/d(par/scale) = scale*DR0/dpar
  
 }
+
+double		R0yy(const int pntdim, double *pnt, int (*fnc)(double *, double *), int varindex, int R0index)
+
+/*
+ * R0YY - Routine computes second derivative with respect to the mutant strategy.
+ *
+ * Arguments - pntdim    : The dimension of the argument vector 'y'. Notice that this
+ * 			     equals # of parameters plus the dimension of the vector of
+ * 			     state variables.
+ *		 y	   : Pointer to an array containing as first element the value
+ *		 	     of the parameter p and as subsequent elements the values of
+ *		 	     the state variables y. The last element is assumed to be the
+ *		 	     second parameter in the LP continuation or second parameter (par.1 env1 .. env n, par. 2)
+ *		 fnc	   : Pointer to function specifying the system of
+ *			     equations. The function must have a (double)
+ *			     pointer as first argument, containing the point
+ *			     in which to evaluate the system and a (double)
+ *			     pointer as second argument, containing the
+ *			     results after evaluation of the equations.
+ *        varindex Index of y waar parameter staat.
+ *		R0index	   : Index of the equilibrium condition (R0-1 = 0) in the result vector
+ *			     returned by (*fnc)().
+ */
+{
+    static int		SGImmediateReturn = 0;
+    double		y[pntdim], old, ydif;
+    double		rhs[pntdim-1], R0_yy;
+    
+    // Prevent recurrence
+    if (SGImmediateReturn) return 0.0;
+    SGImmediateReturn = 1;
+    
+    // Initialize
+    COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar y vec
+    old  = y[varindex];   ///Waarde van de parameter waarna de R0 wordt gedif
+    ydif = max(fabs(JACOBIAN_STEP*y[varindex]), MIN_STEP);  ///stap waarmee de parameeter wordt veranderd
+    
+    y[varindex] = old + ydif;   ///Nieuwe parameterwaarde, y hoger dan oude
+    if ((*fnc)(y, rhs) == FAILURE)  ///Hier wordt het systeem opnieuw ge-evalueerd, dus met de nieuwe parameter en met oude environment
+    {
+        ErrorMsg(__FILE__, __LINE__, "Right-hand side computation failed");
+        return FAILURE;
+    }
+    R0_yy = rhs[R0index];   ///dit is de nieuwe R0 na evaluatie van de nieuwe y (R0+)
+    
+    
+    y[varindex] = old;
+    // Additional call to reset global variables
+    (*fnc)(y, rhs);
+    
+    SGImmediateReturn = 0;
+    
+    return R0_yy;					// Return the derivative w.r.t. the scaled or unscaled parameter?
+    //  return (dR0dp/pnt_scale[0]);			// par=scaledpar*scale => dR0/dscaledpar = dR0/d(par/scale) = scale*DR0/dpar
+}
+
+
+double		R0xx(const int pntdim, double *pnt, int (*fnc)(double *, double *), int varindex, int R0index)
+
+/*
+ * R0xx - Routine computes second derivative with respect to the mutant strategy.
+ *
+ * Arguments - pntdim    : The dimension of the argument vector 'y'. Notice that this
+ * 			     equals parameter of ess plus the dimension of the vector of
+ * 			     state variables. BUT NOT the other parameters in the bifurcation because they remain constatnt
+ *		 y	   : Pointer to an array containing as first element the value
+ *		 	     of the parameter p and as subsequent elements the values of
+ *		 	     the state variables y. The last element is assumed to be the
+ *		 	     second parameter in the LP continuation
+ *		 fnc	   : Pointer to function specifying the system of
+ *			     equations. 
+ *			     pointer as first argument, containing the point
+ *			     in which to evaluate the system and a (double)
+ *			     pointer as second argument, containing the
+ *			     results after evaluation of the equations.
+ *        varindex Index of y waar parameter staat.
+ *		R0index	   : Index of the equilibrium condition (R0-1 = 0) in the result vector
+ *			     returned by (*fnc)().
+ */
+{
+    static int		SGImmediateReturn = 0;
+    double		y[pntdim], old, ydif;
+    double		rhs[pntdim-1], R0_xx;
+    int         retval;
+    double		tv[MAX_PNTDIM];
+    
+    NOR0YY = 0;
+    ReportMsg(2, "gaat R0xx berekenen");
+    // Prevent recurrence
+    if (SGImmediateReturn) return 0.0;
+    SGImmediateReturn = 1;
+    
+    // Initialize
+    COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar y vec
+    old  = y[varindex];   ///Waarde van de parameter waarna de R0 wordt gedif
+    ydif = max(fabs(JACOBIAN_STEP*y[varindex]), MIN_STEP);  ///stap waarmee de parameeter wordt veranderd
+    y[varindex] = old + ydif;   ///Nieuwe parameterwaarde, y hoger dan oude
+   
+    memset((void *)tv, 0, pntdim*sizeof(double));
+    tv[varindex] =  1.0;                     //zet tanvec op [1,0,0..]
+    
+         retval = FindPoint(pntdim, y, tv, DYTOL, RHSTOL, MAXITER, fnc);  //berekend environment met de nieuwe parameterwaarde
+   
+    if (retval != SUCCES)
+	    retval = FindPointGlobal(pntdim, y, tv, DYTOL, RHSTOL, MAXITER, fnc);
+
+    
+    if(retval != SUCCES)
+    {
+        ErrorMsg(__FILE__, __LINE__, "Location of fixed point for 2nd derivatives failed");
+        return FAILURE;
+    }
+    
+    
+    
+       y[varindex] = old; //parameter weer op oude waarde gezet
+
+    if ((*fnc)(y, rhs) == FAILURE)  ///Hier wordt het systeem opnieuw ge-evalueerd, dus met de oude parameter en met nieuwe environment
+    {
+        ErrorMsg(__FILE__, __LINE__, "Right-hand side computation failed");
+        return FAILURE;
+    }
+    R0_xx =  rhs[R0index];   ///dit is de nieuwe R0 na evaluatie van de nieuwe y (R0+)
+    
+    //ReportMsg(1, "R0 %f\n", R0_xx);
+    
+    // Additional call to reset global variables
+    (*fnc)(y, rhs);
+    
+    SGImmediateReturn = 0;
+    
+    NOR0YY = 1;
+    
+    
+    return R0_xx;					// Return the derivative w.r.t. the scaled or unscaled parameter?
+    //  return (dR0dp/pnt_scale[0]);			// par=scaledpar*scale => dR0/dscaledpar = dR0/d(par/scale) = scale*DR0/dpar
+}
+
+
+
+
 
 
 

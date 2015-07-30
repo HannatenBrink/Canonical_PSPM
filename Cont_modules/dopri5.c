@@ -285,17 +285,20 @@ int		odesolve(double *yvec, int vecdim,
   rcont3 = rcont2 + Ode_Dim;
   rcont4 = rcont3 + Ode_Dim;
   rcont5 = rcont4 + Ode_Dim;
-  
+   
   xval = *xinit;
   (void)memcpy((void *)y, (void *)yvec, Ode_Dim*sizeof(double));
   if (stop) newstop = oldstop = (*stop)(xval, yvec);
   hnew = del_h;
-
+  int g = 0;
   while (xval < xmax-ABS_ERR)
     {
-      del_h = dmin(hnew, xmax-xval);
+      del_h = dmin(hnew, xmax-xval);   ///neemt min van hnew en xmax-xval (xmax = 
+      
+      
+     
       dopri5(rhs, del_h);			/* Do an integration step   */
-
+	 
       err = 0.0;				/* error estimation         */
       for (i = 0; i < Ode_Dim; i++)
 	{
@@ -350,6 +353,7 @@ int		odesolve(double *yvec, int vecdim,
 		  rcont4[i] = -del_h * k2[i] + ydiff - bspl;
 		}
 	    }
+	   
 	  /*
 	   * Store previous solution point and update the basic data copy
 	   */

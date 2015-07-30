@@ -23,8 +23,8 @@
 #define BASE_PNTDIM		3
 #define	PROBLEMVARS		"Par.1 R Par.2"
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
-#define BASE_PNTDIM		4
-#define	PROBLEMVARS		"Par.1 R Par.2 Par.3"
+#define BASE_PNTDIM		3
+#define	PROBLEMVARS		"Par.1 R Par.2"
 #elif   (SYSTEM_TYPE == SYSTEM_EVOSYM_CAN)
 #define BASE_PNTDIM		2
 #define	PROBLEMVARS		"Par.1 R"
@@ -51,7 +51,7 @@
 #define DYTOL			1.0E-7		// Variable tolerance
 #define RHSTOL			1.0E-7		// Function tolerance
 #define CANTOL          1.0E-6      // Tolerance for selectiongradient=0
-#define DELTAS           1.0E-3      // Factor to multiply with selection gradient
+#define DELTAS           1.0E-4      // Factor to multiply with selection gradient
 #define EVODIM              2           //number of evolving traits
 
 #undef 	JACOBIAN_STEP
