@@ -196,7 +196,6 @@ int		odesolve(double *yvec, int vecdim,
 
   UserRhs  = rhs;
   UserStop = stop;
-
   // Call CVodeCreate to create the solver memory and specify the
   // standard settings for non-stiff problems (CV_ADAMS, CV_FUNCTIONAL)
   // See 4.5.1. in user-guide 2.7.0
@@ -297,6 +296,7 @@ int		odesolve(double *yvec, int vecdim,
     }
 
   // Now do the actual integration
+  
   flag = CVode(cvode_mem, xmax, y, xinit, CV_NORMAL);
   if (check_flag(&flag, "CVode", 1))
     {

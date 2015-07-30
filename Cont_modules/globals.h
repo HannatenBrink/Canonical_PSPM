@@ -22,6 +22,7 @@
 #include <setjmp.h>
 #include <unistd.h>
 #include "sys/ioctl.h"
+#include <stdbool.h>
 
 #if defined (__APPLE__)
 #include <Accelerate/Accelerate.h>
@@ -54,7 +55,7 @@
  *	Some numerical settings
  *===========================================================================
  */
-
+int NOR0YY;
 #ifndef 	MAX_PNTDIM
 #define         MAX_PNTDIM      	100
 #endif
@@ -119,10 +120,10 @@
 #define		FEMTO			1.0E-15
 #define		ATTO			1.0E-18
 
-#define BIFPARONE	((int)(parameter[14]+0.5))
-#define BIFPARTWO	((int)(parameter[15]+0.5))
-#define BIFPARTHREE ((int)(parameter[16]+0.5))
-#define BIFPARFOUR  ((int)(parameter[17]+0.5))
+#define BIFPARONE	((int)(parameter[PARAMETER_NR-4]+0.5))
+#define BIFPARTWO	((int)(parameter[PARAMETER_NR-3]+0.5))
+#define BIFPARTHREE ((int)(parameter[PARAMETER_NR-2]+0.5))
+#define BIFPARFOUR ((int)(parameter[PARAMETER_NR-1]+0.5))
 /*
  *===========================================================================
  *	Numerical settings used in odesolve.c
@@ -312,7 +313,10 @@ int			CurveFuncDeriv(const int,  double *, double *, const int, double *, int (*
 double			LPcondition(const int, double *, int (*)(double *, double *), int);
 int             Evogradient(const int pntdim, const int evodim, double *pnt, int (*fnc)(double *, double *), int *evopars, double *selgrad, double *minbounds, double *maxbounds);
 double			SelectionGradient(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index);
+double 			SelectionGradientb(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index, double minbound, double maxbound);
 double			SelectionGradient2(const int pntdim, double *y, int (*fnc)(double *, double *), int parindex, int R0index);
+double			R0yy(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index);
+double			R0xx(const int pntdim, double *y, int (*fnc)(double *, double *), int varindex, int R0index);
 bool            Noevocheck(double *selgrad);
 
 
@@ -355,11 +359,11 @@ void 			checkESCpressed(void);
  */
 
 double 			anorm(int, int, double *);
-inline double 		bexp(double);
-inline int 		imax(int, int);
-inline int 		imin(int, int);
-inline double 		dmax(double, double);
-inline double 		dmin(double, double);
+ double 		bexp(double);
+ int 		imax(int, int);
+int 		imin(int, int);
+ double 		dmax(double, double);
+ double 		dmin(double, double);
 int			SetScalesSimple(double *point, int basedim);
 int			SetScales(double *point, int basedim, int dim);
 double			determinant(double *, int);
@@ -403,7 +407,7 @@ int main(int argc, char **argv)
   int			maxind = 0, pntdim;
   double		result[MAX_PNTDIM];
   double		maxdif = 0.0;
-
+    NOR0YY = 1;
   // Initialize some variables
   errfile = NULL;	outfile = NULL;
   NewStateComputed = 0; Report2Terminal = 1;
@@ -506,13 +510,12 @@ int main(int argc, char **argv)
 
 {
     register int		i, j, outmax;
-    double		oldpoint[MAX_PNTDIM], oldpointselec[MAX_PNTDIM], oldpar;
+    double		oldpoint[MAX_PNTDIM], oldpointselec[MAX_PNTDIM];
     double		tanvec[MAX_PNTDIM], selvec[MAX_PNTDIM];
     int			pntnr = 0, pntdim, oldpntdim, nargs;
     int			cycles, last = 1, retval, setpoint, fp;
     char			fname[MAX_STR_LEN];
     double		Output[MAX_OUTPUTDIM];
-    //double		minbound, maxbound;
     double		maxparstep, Minparstep;
     int			my_argc;
     char		**argpnt1 = NULL, **argpnt2 = NULL, **my_argv = NULL;
@@ -521,14 +524,15 @@ int main(int argc, char **argv)
     double      selgrad[EVODIM];
     double      minbounds[EVODIM];
     double      maxbounds[EVODIM];
-
-    
-    
+    double	oldpar[EVODIM];
+    printf("Canonical Equation\n");
+    memset((void *)selgrad,  0, EVODIM*sizeof(double)); //set selgrad op 0
+    NOR0YY = 1;
     // Initialize some variables
     errfile = NULL;	outfile = NULL;
     parstep = 1.0;	Maxparstep = -0.001; Minparstep = MINPARSTEPVAL;
     Stepchange = 0;	Stepreduce = 1;
-    NewStateComputed = 0; Report2Terminal = 1;
+    NewStateComputed = 0; Report2Terminal = 2;
     
     my_argv = (char **)calloc((size_t)argc, sizeof(char *));
     
@@ -610,6 +614,7 @@ int main(int argc, char **argv)
     memset((void *)point,  0, MAX_PNTDIM*sizeof(double)); //copieert allemaal nullen naar point
     for (i=0, j=CVFFILE+1; i<BASE_PNTDIM; i++, j++) point[i] = atof(my_argv[j]); //init point
     
+    //point[0] = (parameter[BIFPARONE]);
     for (i=0; i<EVODIM;i++)
     {
         minbounds[i] =atof(my_argv[j++]);
@@ -649,19 +654,6 @@ int main(int argc, char **argv)
     
     // Use Ctrl-C to change step size
     installSIGINThandler();
-    
-    // Find the first point on the curve
-    memset((void *)tanvec, 0, MAX_PNTDIM*sizeof(double));
-    tanvec[0] = 1.0;
-    
-      retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation);
-      if (retval != SUCCES)
-        {
-          NumProcError(__FILE__, __LINE__, retval);
-          ErrorMsg(__FILE__, __LINE__, "Failure to locate first point");
-          return 1;
-        }
-   
     //INITIALIZATION OF EVOPAR //Niet echt mooi zo, maar werkt wel...
     
     evopar[0] = BIFPARONE;
@@ -677,6 +669,26 @@ int main(int argc, char **argv)
     evopar[2] = BIFPARTHREE;
     evopar[3] = BIFPARFOUR;
 #endif
+    ReportMsg(2, "Evo Par 1: %f\t", point[0]);
+    for (i=1;i<EVODIM;i++) {
+    ReportMsg(2, "Evo Par %d:%f\t", i+1,parameter[evopar[i]]);
+    }
+    
+    // Find the first point on the curve
+    memset((void *)tanvec, 0, MAX_PNTDIM*sizeof(double));
+    tanvec[0] = 1.0;
+      retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation);
+      if (retval != SUCCES) retval = FindPointGlobal(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation); //second try
+      if (retval !=SUCCES) 
+        {
+          NumProcError(__FILE__, __LINE__, retval);
+          ErrorMsg(__FILE__, __LINE__, "Failure to locate first point");
+          return 1;
+        }
+      
+     
+   
+
     
  
     ///=====NIEUWE CODE CANONICAL=====///
@@ -693,8 +705,50 @@ int main(int argc, char **argv)
         memset((void *)tanvec, 0, pntdim*sizeof(double));
         tanvec[0] = 1.0;
         
-        retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, MAXITER, Equation);
+//UPDATE PARAMETERS according to selection gradient////
+
+	oldpar[0] = point[0];  
+	for (i=1;i<EVODIM;i++) oldpar[i] = parameter[evopar[i]];  //save previous parameters
+   
+	int g = 0;
+	double h = DELTAS;
+	
+	//This function will decrease the evolutionary stepsize (DELTAS) when the equilibrium can not be found. Might help to increase g value to try even harder.
+	while(g<8) {
+		
+		
+		point[0] = (oldpar[0]+h*selgrad[0]);	//update parameter 1
+		ReportMsg(2, "new par 1: %f\t", point[0]);
+		ReportMsg(2, "sel grad 0: %f\t", selgrad[0]);
+		if (point[0]*pnt_scale[0] > maxbounds[0]) point[0]=maxbounds[0];
+		if (point[0]*pnt_scale[0]< minbounds[0]) point[0] = minbounds[0]; 				
+		for (i=1;i<EVODIM;i++)
+        	{
+        	parameter[evopar[i]] = selgrad[i]*h+oldpar[i]; //update all other parameters
+        	if (parameter[evopar[i]] > maxbounds[i]) parameter[evopar[i]] = maxbounds[i];
+        	if (parameter[evopar[i]] < minbounds[i]) parameter[evopar[i]] = minbounds[i];
+        	ReportMsg(2, "new par %d: %f\t", i+1, parameter[evopar[i]]);		
+        	ReportMsg(2, "sel grad %d: %f\t", i+1, selgrad[i]);
+        	}
+		
+        	retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation);  //find point
         
+ 		if (retval != SUCCES) {
+ 			ReportMsg(2, "nu met global\n");
+	    		retval = FindPointGlobal(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation); //second try
+	    		}
+
+		if (retval == SUCCES) {
+			ReportMsg(2, "succes met h=%f en step =%d\n", h, g);
+			break;   //stop if succesfull
+			}
+		ReportMsg(2, "Geen succes met h=%f en step =%d\n", h, g);
+		h *= 0.1;		       //decrease stepsize if not succesful		
+		g++;
+		
+		}
+		
+	
 
         if (retval != SUCCES)
         {
@@ -720,16 +774,20 @@ int main(int argc, char **argv)
         for (i=0; (pntnr > 20) && (i<pntdim); i++)
         {
             
-            CurveEnd = CurveEnd ||  Noevocheck(selgrad);
+            //ReportMsg(2, "Testen of curve end:\n");
+            CurveEnd = CurveEnd ||  Noevocheck(selgrad);  //checkt of evolutie klaar is
 #if (!ALLOWNEGATIVE)
             CurveEnd = CurveEnd || (point[i] < -DYTOL);
 #endif
             
         }
-        
+        //ReportMsg(2, "Schrijven naar outfile:\n");
         if (outfile)
         {
+            //ReportMsg(2, "outfile aanwezig:\n");
+            
             outmax = DefineOutput(point, Output);
+            
             if (outmax)
             {
                 Output[outmax++] = RhsNorm;
@@ -737,21 +795,17 @@ int main(int argc, char **argv)
                 fflush(outfile);
             }
         }
-        if (CurveEnd) return 0;
+        if (CurveEnd) {
+        ReportMsg(1, "evocheck %d", Noevocheck(selgrad));
+        return 0;
+        }
         
         pntnr++;
-        
-        
-      
+	ReportMsg(2, "Evograd berekenen:\n");
         Evogradient(pntdim, EVODIM, point, Equation, evopar, selgrad, minbounds, maxbounds); //Calculate selectiongradient
-        
-       point[0] = point[0]+DELTAS*selgrad[0];  //update bifpar
-        
-        for (i=1;i<EVODIM;i++)
-        {
-            parameter[evopar[i]] = selgrad[i]*DELTAS+parameter[evopar[i]]; //update all other parameters
-        }
-
+	ReportMsg(2, "Nieuwe ronde:\n");
+	
+	
         if (errfile) fflush(errfile);
         
     }
@@ -760,6 +814,7 @@ int main(int argc, char **argv)
     return 0;
 }
 /*==========================================================================*/
+/*====Normale routine voor _trc als er geen canonical is====*/
 #else
 
 static int		CurveEnd = 0;
@@ -794,12 +849,12 @@ int main(int argc, char **argv)
   double		maxparstep, Minparstep;
   int			my_argc;
   char			**argpnt1 = NULL, **argpnt2 = NULL, **my_argv = NULL;
-
+    NOR0YY = 1;
   // Initialize some variables
   errfile = NULL;	outfile = NULL;
   parstep = 1.0;	Maxparstep = -0.001; Minparstep = MINPARSTEPVAL;
   Stepchange = 0;	Stepreduce = 1;
-  NewStateComputed = 0; Report2Terminal = 1;
+  NewStateComputed = 0; Report2Terminal = 2;
 
   my_argv = (char **)calloc((size_t)argc, sizeof(char *));
 
@@ -933,6 +988,8 @@ int main(int argc, char **argv)
   memset((void *)tanvec, 0, MAX_PNTDIM*sizeof(double));
   tanvec[0] = 1.0;
 
+  ReportMsg(1, "Parameter XJ: %f\n", parameter[BIFPARTHREE]);
+
 //  retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, 2*MAXITER, Equation);
 //  if (retval != SUCCES)
 //    {
@@ -964,14 +1021,20 @@ int main(int argc, char **argv)
       cycles = 0;
       while(Stepreduce <= MAX_STEPREDUCE)
 	{
-	  retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, MAXITER, Equation);
+	  
+        
+        ReportMsg(1, " : %d\t", pntdim);
+        
+        
+        for (i=0; i<BASE_PNTDIM; i++)
+		    ReportMsg(1, "%10.5E\t", point[i]);
+        retval = FindPoint(pntdim, point, tanvec, DYTOL, RHSTOL, MAXITER, Equation); //calculates point
 
 	  // If not successful with standard Newton method retry with error-based damped Newton algorithm
 	  if (retval != SUCCES)
 	    retval = FindPointGlobal(pntdim, point, tanvec, DYTOL, RHSTOL, MAXITER, Equation);
 
-	  if (retval == SUCCES)
-	    {
+	  if (retval == SUCCES) {     
 	      if (Report2Terminal)
 		{
 		  ReportMsg(1, "Point found:\t");
@@ -1107,7 +1170,7 @@ int main(int argc, char **argv)
 	  ReportMsg(2, "Realized  step in component   0: %.8G\n", parstep*tanvec[0]/Stepreduce);
 
 	  // Prediction
-	  ReportMsg(1, "\n\nPrediction :\t");
+	  ReportMsg(1, "\n\nPrediction:\t");
 	  for (i=0; i<BASE_PNTDIM; i++)
 	    ReportMsg(1, "%10.5E\t", point[i]*pnt_scale[i]);
 	  ReportMsg(1, "\n");
@@ -1122,57 +1185,7 @@ int main(int argc, char **argv)
 #endif
 #endif // !(defined(CURVE) || defined(COHORT) || defined(IO) || defined(ODE_DOPRI) || defined(UTILS))
 
-/*==============================================================================*/
 
-inline double	bexp(double x)
-
-{
-    double		pw = x;
-    
-    pw = max(pw, -MAX_EXP);
-    pw = min(pw,  MAX_EXP);
-    
-    return exp(pw);
-}
-
-
-/*==============================================================================*/
-
-inline int	  imin(int a, int b)
-
-{
-    return (a < b) ? a : b;
-}
-
-
-/*==============================================================================*/
-
-inline int	  imax(int a, int b)
-
-{
-    return (a > b) ? a : b;
-}
-
-
-/*==============================================================================*/
-
-inline double dmax(double a, double b)
-{
-    double		dmaxa = a, dmaxb = b;
-    return (dmaxa > dmaxb) ? dmaxa:dmaxb;
-}
-
-
-/*==============================================================================*/
-
-inline double dmin(double a, double b)
-{
-    double		dmina = a, dminb = b;
-    return (dmina < dminb) ? dmina:dminb;
-}
-
-
-/*==============================================================================*/
 
 /*==============================================================================*/
 

@@ -14,6 +14,58 @@
 
 /*==============================================================================*/
 
+inline double	bexp(double x)
+
+{
+    double		pw = x;
+    
+    pw = max(pw, -MAX_EXP);
+    pw = min(pw,  MAX_EXP);
+    
+    return exp(pw);
+}
+
+
+/*==============================================================================*/
+
+inline int	  imin(int a, int b)
+
+{
+    return (a < b) ? a : b;
+}
+
+
+/*==============================================================================*/
+
+inline int	  imax(int a, int b)
+
+{
+    return (a > b) ? a : b;
+}
+
+
+/*==============================================================================*/
+
+inline double dmax(double a, double b)
+{
+    double		dmaxa = a, dmaxb = b;
+    return (dmaxa > dmaxb) ? dmaxa:dmaxb;
+}
+
+
+/*==============================================================================*/
+
+inline double dmin(double a, double b)
+{
+    double		dmina = a, dminb = b;
+    return (dmina < dminb) ? dmina:dminb;
+}
+
+
+/*==============================================================================*/
+
+/*==============================================================================*/
+
 double anorm(int rows, int cols, double *a)
 {
   register int		i;
@@ -95,7 +147,7 @@ int	SetScalesSimple(double *point, int basedim)
 	}
     }
 
-  return scaleset;
+	return scaleset; 
 }
 
 
@@ -107,7 +159,13 @@ int	SetScales(double *point, int basedim, int dim)
   register int		i, scaleset = 0, newscale;
   static int		first = 1;
   double		tmp, maxicm;
+#if CANONICAL == 1
 
+      for (i=0; i<(basedim+1); i++) pnt_scale[i] = 1.0;
+      for (i=0; i<(basedim+1); i++) oldscale[i]  = 1.0;
+
+  return scaleset;
+#else
   if (first)
     {
       for (i=0; i<(basedim+1); i++) pnt_scale[i] = 1.0;
@@ -140,6 +198,7 @@ int	SetScales(double *point, int basedim, int dim)
     }
 
   return scaleset;
+#endif
 }
 
 
