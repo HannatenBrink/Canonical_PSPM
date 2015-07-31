@@ -1342,12 +1342,12 @@ double		R0xx(const int pntdim, double *pnt, int (*fnc)(double *, double *), int 
     int         retval;
     double		tv[MAX_PNTDIM];
     
-    NOR0YY = 0;
+    
     ReportMsg(2, "gaat R0xx berekenen");
     // Prevent recurrence
     if (SGImmediateReturn) return 0.0;
     SGImmediateReturn = 1;
-    
+    NOR0XX = 0;
     // Initialize
     COPY(pntdim, pnt, 1, y, 1); //copieert pnt naar y vec
     old  = y[varindex];   ///Waarde van de parameter waarna de R0 wordt gedif
@@ -1387,7 +1387,7 @@ double		R0xx(const int pntdim, double *pnt, int (*fnc)(double *, double *), int 
     
     SGImmediateReturn = 0;
     
-    NOR0YY = 1;
+    NOR0XX = 1;
     
     
     return R0_xx;					// Return the derivative w.r.t. the scaled or unscaled parameter?

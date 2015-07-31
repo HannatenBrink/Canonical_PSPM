@@ -207,7 +207,7 @@ int		Equation(double *argument, double *result)
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
     parameter[Bifparone]    = argument[index]*pnt_scale[index]; index++;
     Requi                   = argument[index]*pnt_scale[index]; index++;
-    if (NOR0YY == 1) {
+    if (NOR0XX == 1) {
     parameter[Bifpartwo]    = argument[index]*pnt_scale[index]; index++;
     }
     //parameter[Bifparthree]  = argument[index]*pnt_scale[index]; index++;
@@ -299,7 +299,7 @@ int		Equation(double *argument, double *result)
 #elif (SYSTEM_TYPE == SYSTEM_EVOSYM_ESS)
     result[0]  = CUMREPRO - 1.0;
     // The last index in the following call indicates the index of the equation R0-1= 0 in the result[] vector
-    if (NOR0YY == 1)
+    if (NOR0XX == 1)
     {
     result[1]  = SelectionGradient(BASE_PNTDIM, argument, Equation, 0, 0);
     }

@@ -55,7 +55,7 @@
  *	Some numerical settings
  *===========================================================================
  */
-int NOR0YY;
+int NOR0XX;
 #ifndef 	MAX_PNTDIM
 #define         MAX_PNTDIM      	100
 #endif
@@ -407,7 +407,7 @@ int main(int argc, char **argv)
   int			maxind = 0, pntdim;
   double		result[MAX_PNTDIM];
   double		maxdif = 0.0;
-    NOR0YY = 1;
+    NOR0XX = 1;
   // Initialize some variables
   errfile = NULL;	outfile = NULL;
   NewStateComputed = 0; Report2Terminal = 1;
@@ -527,7 +527,7 @@ int main(int argc, char **argv)
     double	oldpar[EVODIM];
     printf("Canonical Equation\n");
     memset((void *)selgrad,  0, EVODIM*sizeof(double)); //set selgrad op 0
-    NOR0YY = 1;
+    NOR0XX = 1;
     // Initialize some variables
     errfile = NULL;	outfile = NULL;
     parstep = 1.0;	Maxparstep = -0.001; Minparstep = MINPARSTEPVAL;
@@ -849,7 +849,7 @@ int main(int argc, char **argv)
   double		maxparstep, Minparstep;
   int			my_argc;
   char			**argpnt1 = NULL, **argpnt2 = NULL, **my_argv = NULL;
-    NOR0YY = 1;
+    NOR0XX = 1;
   // Initialize some variables
   errfile = NULL;	outfile = NULL;
   parstep = 1.0;	Maxparstep = -0.001; Minparstep = MINPARSTEPVAL;
